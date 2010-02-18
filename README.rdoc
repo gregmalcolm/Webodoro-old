@@ -1,0 +1,25 @@
+= Webodoro
+
+The initial goal of Webodoro is to make it easy to maintain Pomodoro records online.
+
+By records, we mean these documents:
+
+* To Do Today sheets
+* Activities Inventory
+* Records
+
+These are all records used with the Pomodoro Technique.
+
+Webodoro doesn't require you to adhere to all the rules of Pomodoro strictly or to use our timer. It is designed to be helpful but flexible.
+
+This project was initially started as an exercise in learning Ruby on Raiso. At the moment of writing the project is far from complete.
+
+The code is under MIT License. Do with it what you will!
+
+== Pomodoro Technique
+
+The Pomodoro Technique is a time management methodology devised by Francesco Cirillo. More information is here:
+
+http://www.pomodorotechnique.com/
+
+Webodoro is not officially affiliated with the Pomodoro Technique

@@ -1,0 +1,37 @@
+Iteration 1
+===========
+
+The user will update the Activity Inventory to keep track of outstanding tasks.
+* The user can add an activity to the list.
+* The user can view a list of activities.
+* The user can edit an activity.
+* The user can delete an activity.
+* Activity has:
+  + A schedule comment (may be blank).
+  + A descpiption (expected eventually).
+  + Estimate (1st number will be used for statistics).
+  + Actual.
+
+Iteration 2
+===========
+
+To Do Today sheets
+
+Backlog
+=======
+
+Strategy
+========
+
+In order of importance:
+
+* Allow the user easy web access to Pomodoro timetracking. The user can work with it even if they
+are using a real world timer.
+
+* Make it easy to do stuff like marking completed pomodoros and interuptions
+
+* Support easy data-mining for record keeping
+
+* Where possible provide flexibility for the user to do things their own way
+
+* Make it easy to hook up second party client tools to the server

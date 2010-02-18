@@ -1,0 +1,26 @@
+<h1>Listing activities</h1>
+
+<table>
+  <tr>
+    <th>Margin</th>
+    <th>Description</th>
+    <th>Estimate</th>
+    <th>Actual</th>
+  </tr>
+
+<% @activities.each do |activity| %>
+  <tr>
+    <td><%=h activity.margin %></td>
+    <td><%=h activity.description %></td>
+    <td><%=h activity.estimate %></td>
+    <td><%=h activity.actual %></td>
+    <td><%= link_to 'Show', activity %></td>
+    <td><%= link_to 'Edit', edit_activity_path(activity) %></td>
+    <td><%= link_to 'Destroy', activity, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New activity', new_activity_path %>

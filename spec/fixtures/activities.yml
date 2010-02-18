@@ -1,0 +1,24 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+--- !omap
+
+- egg_boiler:
+    margin:
+    description: Boil an egg
+    estimate: 1.00
+    actual: 7.99
+    position: 2
+
+- eat_some_pie:
+    margin: [1/5/2009]
+    description: Eat some pie
+    estimate: 4.00
+    actual: 3.33
+    position: 1
+
+- clean_up:
+    margin:
+    description: The test fixtures need cleaning up...
+    estimate: 2.00
+    actual: 2.00
+    position: 3

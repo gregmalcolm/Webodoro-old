@@ -1,0 +1,22 @@
+<p>
+  <b>Margin:</b>
+  <%=h @activity.margin %>
+</p>
+
+<p>
+  <b>Description:</b>
+  <%=h @activity.description %>
+</p>
+
+<p>
+  <b>Estimate:</b>
+  <%=h @activity.estimate %>
+</p>
+
+<p>
+  <b>Actual:</b>
+  <%=h @activity.actual %>
+</p>
+
+<%= link_to 'Edit', edit_activity_path(@activity) %> |
+<%= link_to 'Back', activities_path %>
