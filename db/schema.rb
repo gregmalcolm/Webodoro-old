@@ -9,7 +9,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20100215204138) do
+ActiveRecord::Schema.define(:version => 20100219035909) do
 
   create_table "activities", :force => true do |t|
     t.string   "margin"
@@ -19,6 +19,15 @@ ActiveRecord::Schema.define(:version => 20100215204138) do
     t.integer  "position"
     t.datetime "created_at"
     t.datetime "updated_at"
+  end
+
+  create_table "do_today_items", :force => true do |t|
+    t.integer  "pomodoros"
+    t.integer  "internal_interuptions"
+    t.integer  "external_interuptions"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.integer  "activity_id"
   end
 
 end
