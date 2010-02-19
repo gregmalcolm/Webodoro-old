@@ -2,20 +2,35 @@ Iteration 1
 ===========
 
 The user will update the Activity Inventory to keep track of outstanding tasks.
-* The user can add an activity to the list.
-* The user can view a list of activities.
-* The user can edit an activity.
-* The user can delete an activity.
+* The user can add an activity to the list.               /
+* The user can view a list of activities.                 /
+* The user can edit an activity.                          /
+* The user can delete an activity.                        /
 * Activity has:
-  + A schedule comment (may be blank).
-  + A descpiption (expected eventually).
-  + Estimate (1st number will be used for statistics).
-  + Actual.
+  + A schedule comment (may be blank).                    /
+  + A descpiption (expected eventually).                  /
+  + Estimate (1st number will be used for statistics).    /
+  + Actual.                                               /
 
 Iteration 2
 ===========
 
 To Do Today sheets
+* The Activity Inventory has many To Do Items
+* To Do Sheet Item
+
+Soon
+====
+
+Users
+Sessions
+
+Webodoros
+* 1:1 relationship with User on User Id
+* User ID
+* Sheet Date
+
+Activties and To Do Items also owned by user
 
 Backlog
 =======
