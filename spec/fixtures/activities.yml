@@ -22,3 +22,10 @@
     estimate: 2.00
     actual: 2.00
     position: 3
+
+- design_choose_to_do_view:
+    margin:
+    description: Decide structure of view for picking to do today tasks
+    estimate: 3.00
+    actual: 4.00
+    position: 4

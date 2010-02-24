@@ -1,0 +1,8 @@
+<h1>Which tasks do you want to do today?</h1>
+<div>
+  <div>
+    <% @activities.each do |activity| %>
+        <p><%=h activity.description %></p>
+    <% end %>
+  </div>
+</div>

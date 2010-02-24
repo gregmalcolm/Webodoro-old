@@ -19,15 +19,15 @@ describe ActivitiesController do
     end
 
     it "recognizes and generates #create" do
-      { :post => "/activities" }.should route_to(:controller => "activities", :action => "create") 
+      { :post => "/activities" }.should route_to(:controller => "activities", :action => "create")
     end
 
     it "recognizes and generates #update" do
-      { :put => "/activities/1" }.should route_to(:controller => "activities", :action => "update", :id => "1") 
+      { :put => "/activities/1" }.should route_to(:controller => "activities", :action => "update", :id => "1")
     end
 
     it "recognizes and generates #destroy" do
-      { :delete => "/activities/1" }.should route_to(:controller => "activities", :action => "destroy", :id => "1") 
+      { :delete => "/activities/1" }.should route_to(:controller => "activities", :action => "destroy", :id => "1")
     end
   end
 end

@@ -1,52 +1,49 @@
 require 'spec_helper'
+require File.join(File.dirname(__FILE__),'..','spec_helpers','activities_controller_spec_helper.rb')
 
 describe ActivitiesController do
-
   fixtures :activities
 
-  def mock_activity(stubs={})
-    @mock_activity ||= mock_model(Activity, stubs)
-  end
+  include ActivitiesControllerSpecHelper
 
   describe "GET index" do
     it "assigns all activities as @activities" do
-      Activity.stub(:find).and_return([mock_activity])
+      activity = stub('activity')
+      Activity.expects(:find).returns([activity])
       get :index
-      assigns[:activities].should == [mock_activity]
+      assigns[:activities].should == [activity]
     end
 
     it "assigns all activities in order of position" do
       get :index
-
-      activities = assigns[:activities]
-      activities.count.should >= 2
-      activities.count.times do |i|
-        activities[i].position.should == i + 1
-      end
+      validate_position_order assigns[:activities]
     end
   end
 
   describe "GET show" do
     it "assigns the requested activity as @activity" do
-      Activity.stub(:find).with("37").and_return(mock_activity)
+      activity = stub('activity')
+      Activity.expects(:find).with("37").returns(activity)
       get :show, :id => "37"
-      assigns[:activity].should equal(mock_activity)
+      assigns[:activity].should == activity
     end
   end
 
   describe "GET new" do
     it "assigns a new activity as @activity" do
-      Activity.stub(:new).and_return(mock_activity)
+      activity = stub('activity')
+      Activity.expects(:new).returns(activity)
       get :new
-      assigns[:activity].should equal(mock_activity)
+      assigns[:activity].should equal(activity)
     end
   end
 
   describe "GET edit" do
     it "assigns the requested activity as @activity" do
-      Activity.stub(:find).with("37").and_return(mock_activity)
+      activity = stub('activity')
+      Activity.expects(:find).with("37").returns(activity)
       get :edit, :id => "37"
-      assigns[:activity].should equal(mock_activity)
+      assigns[:activity].should equal(activity)
     end
   end
 
@@ -54,27 +51,31 @@ describe ActivitiesController do
 
     describe "with valid params" do
       it "assigns a newly created activity as @activity" do
-        Activity.stub(:new).with({'these' => 'params'}).and_return(mock_activity(:save => true))
+        activity = stub('activity', :class => Activity, :save => true)
+        Activity.stubs(:new).with('these' => 'params').returns(activity)
         post :create, :activity => {:these => 'params'}
-        assigns[:activity].should equal(mock_activity)
+        assigns[:activity].should equal(activity)
       end
 
       it "redirects to the created activity" do
-        Activity.stub(:new).and_return(mock_activity(:save => true))
+        activity = stub('activity', :class => Activity, :save => true)
+        Activity.expects(:new).returns(activity)
         post :create, :activity => {}
-        response.should redirect_to(activity_url(mock_activity))
+        response.should redirect_to(activity_url(activity))
       end
     end
 
     describe "with invalid params" do
       it "assigns a newly created but unsaved activity as @activity" do
-        Activity.stub(:new).with({'these' => 'params'}).and_return(mock_activity(:save => false))
+        activity = stub('activity', :save => false)
+        Activity.expects(:new).with({'these' => 'params'}).returns(activity)
         post :create, :activity => {:these => 'params'}
-        assigns[:activity].should equal(mock_activity)
+        assigns[:activity].should equal(activity)
       end
 
       it "re-renders the 'new' template" do
-        Activity.stub(:new).and_return(mock_activity(:save => false))
+        activity = stub('activity', :save => false)
+        Activity.expects(:new).returns(activity)
         post :create, :activity => {}
         response.should render_template('new')
       end
@@ -86,58 +87,67 @@ describe ActivitiesController do
 
     describe "with valid params" do
       it "updates the requested activity" do
-        Activity.should_receive(:find).with("37").and_return(mock_activity)
-        mock_activity.should_receive(:update_attributes).with({'these' => 'params'})
+        activity = mock('activity')
+        activity.responds_like(Activity.new)
+        Activity.expects(:find).with("37").returns(activity)
+        activity.expects(:update_attributes).with({'these' => 'params'})
         put :update, :id => "37", :activity => {:these => 'params'}
       end
 
       it "assigns the requested activity as @activity" do
-        Activity.stub(:find).and_return(mock_activity(:update_attributes => true))
+        activity = stub('activity', :class => Activity, :update_attributes => true)
+        Activity.expects(:find).returns(activity)
         put :update, :id => "1"
-        assigns[:activity].should equal(mock_activity)
+        assigns[:activity].should equal(activity)
       end
 
       it "redirects to the activity" do
-        Activity.stub(:find).and_return(mock_activity(:update_attributes => true))
+        activity = stub('activity', :class => Activity, :update_attributes => true)
+        Activity.expects(:find).returns(activity)
         put :update, :id => "1"
-        response.should redirect_to(activity_url(mock_activity))
+        response.should redirect_to(activity_url(activity))
       end
     end
 
     describe "with invalid params" do
       it "updates the requested activity" do
-        Activity.should_receive(:find).with("37").and_return(mock_activity)
-        mock_activity.should_receive(:update_attributes).with({'these' => 'params'})
+        activity = mock('activity')
+        activity.responds_like(Activity.new)
+        Activity.expects(:find).with("37").returns(activity)
+        activity.expects(:update_attributes).with({'these' => 'params'})
         put :update, :id => "37", :activity => {:these => 'params'}
       end
 
       it "assigns the activity as @activity" do
-        Activity.stub(:find).and_return(mock_activity(:update_attributes => false))
+        activity = stub('activity', :update_attributes => false)
+        Activity.expects(:find).returns(activity)
         put :update, :id => "1"
-        assigns[:activity].should equal(mock_activity)
+        assigns[:activity].should equal(activity)
       end
 
       it "re-renders the 'edit' template" do
-        Activity.stub(:find).and_return(mock_activity(:update_attributes => false))
+        activity = stub('activity', :update_attributes => false)
+        Activity.expects(:find).returns(activity)
         put :update, :id => "1"
         response.should render_template('edit')
       end
     end
 
-  end
+    describe "DELETE destroy" do
+      it "destroys the requested activity" do
+        activity = mock('activity')
+        activity.responds_like(Activity.new)
+        Activity.expects(:find).with("37").returns(activity)
+        activity.expects(:destroy)
+        delete :destroy, :id => "37"
+      end
 
-  describe "DELETE destroy" do
-    it "destroys the requested activity" do
-      Activity.should_receive(:find).with("37").and_return(mock_activity)
-      mock_activity.should_receive(:destroy)
-      delete :destroy, :id => "37"
+      it "redirects to the activities list" do
+        activity = stub('activity', :destroy => true)
+        Activity.expects(:find).returns(activity)
+        delete :destroy, :id => "1"
+        response.should redirect_to(activities_url)
+      end
     end
-
-    it "redirects to the activities list" do
-      Activity.stub(:find).and_return(mock_activity(:destroy => true))
-      delete :destroy, :id => "1"
-      response.should redirect_to(activities_url)
-    end
   end
-
 end

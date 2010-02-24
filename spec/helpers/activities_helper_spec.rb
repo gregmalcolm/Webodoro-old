@@ -1,11 +1,23 @@
 require 'spec_helper'
 
-describe ActivitiesHelper do
+class TestActivitiesHelper
+  include ActivitiesHelper 
+end
 
-  #Delete this example and add some real ones or delete this file
-  it "is included in the helper object" do
-    included_modules = (class << helper; self; end).send :included_modules
-    included_modules.should include(ActivitiesHelper)
+describe ActivitiesHelper do
+  def mock_activity(stubs={})
+    @mock_activity ||= mock_model(Activity, stubs)
   end
 
+#  def mock_activity()
+#    @mock_activity ||= mock_model(Activity,{})
+#  end
+
+  #describe all_activities do
+    #it "should retrieve activities"
+      #Activity.stub(:find).and_return([mock_activity])
+      #TestActivitiesHelper.stub(:all_activities).and_return([mock_activity])
+#      helper = ActivitiesHelper
+#      helper.all_activities.should == [mock_activity]
+    #end
 end

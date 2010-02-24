@@ -1,2 +1,0 @@
-class DoTodayItemController < ApplicationController
-end

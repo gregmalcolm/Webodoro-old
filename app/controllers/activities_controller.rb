@@ -1,8 +1,11 @@
+require File.join(File.dirname(__FILE__),'..','helpers','activities_helper')
+include ActivitiesHelper
+
 class ActivitiesController < ApplicationController
   # GET /activities
   # GET /activities.xml
   def index
-    @activities = Activity.find(:all, :order => "position")
+    all_activities
 
     respond_to do |format|
       format.html # index.html.erb
