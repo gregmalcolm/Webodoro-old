@@ -6,7 +6,7 @@ class ActivitiesController < ApplicationController
   # GET /activities.xml
   def index
     all_activities
-
+    
     respond_to do |format|
       format.html # index.html.erb
       format.xml  { render :xml => @activities }

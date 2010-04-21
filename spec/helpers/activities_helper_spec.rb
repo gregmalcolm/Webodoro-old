@@ -1,23 +1,16 @@
 require 'spec_helper'
+require 'mocha/api'
 
-class TestActivitiesHelper
-  include ActivitiesHelper 
-end
+#class TestActivitiesHelper
+#  include ActivitiesHelper
+#end
 
-describe ActivitiesHelper do
-  def mock_activity(stubs={})
-    @mock_activity ||= mock_model(Activity, stubs)
-  end
-
-#  def mock_activity()
-#    @mock_activity ||= mock_model(Activity,{})
-#  end
-
-  #describe all_activities do
-    #it "should retrieve activities"
-      #Activity.stub(:find).and_return([mock_activity])
-      #TestActivitiesHelper.stub(:all_activities).and_return([mock_activity])
-#      helper = ActivitiesHelper
-#      helper.all_activities.should == [mock_activity]
-    #end
-end
+#describe ActivitiesHelper do
+#  describe all_activities do
+#    include ActivitiesHelper
+#    it "should retrieve activities"
+#      helper = mock()
+#      #TestActivitiesHelper.expects(:all_activities).return(helper)
+#      #helper.all_activities.should == helper
+#    end
+#end

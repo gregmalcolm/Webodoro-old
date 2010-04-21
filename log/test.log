@@ -26579,3 +26579,2303 @@ Processing ActivitiesController#index (for 0.0.0.0 at 2010-02-24 10:00:23) [GET]
 Rendering template within layouts/application
 Rendering activities/index
 Completed in 2ms (View: 0, DB: 1) | 200 OK [http://test.host/activities]
+
+
+Processing ActivitiesController#destroy (for 0.0.0.0 at 2010-02-24 18:34:02) [DELETE]
+  Parameters: {"id"=>"37"}
+Redirected to http://test.host/activities
+Completed in 2ms (DB: 1) | 302 Found [http://test.host/activities/37]
+
+
+Processing ActivitiesController#destroy (for 0.0.0.0 at 2010-02-24 18:34:02) [DELETE]
+  Parameters: {"id"=>"1"}
+Redirected to http://test.host/activities
+Completed in 0ms (DB: 0) | 302 Found [http://test.host/activities/1]
+
+
+Processing ActivitiesController#update (for 0.0.0.0 at 2010-02-24 18:34:02) [PUT]
+  Parameters: {"activity"=>{"these"=>"params"}, "id"=>"37"}
+Rendering template within layouts/application
+Rendering activities/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/activities/37?activity%5Bthese%5D=params]
+
+
+Processing ActivitiesController#update (for 0.0.0.0 at 2010-02-24 18:34:02) [PUT]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/application
+Rendering activities/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/activities/1]
+
+
+Processing ActivitiesController#update (for 0.0.0.0 at 2010-02-24 18:34:02) [PUT]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/application
+Rendering activities/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/activities/1]
+
+
+Processing ActivitiesController#update (for 0.0.0.0 at 2010-02-24 18:34:02) [PUT]
+  Parameters: {"activity"=>{"these"=>"params"}, "id"=>"37"}
+Rendering template within layouts/application
+Rendering activities/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/activities/37?activity%5Bthese%5D=params]
+
+
+Processing ActivitiesController#update (for 0.0.0.0 at 2010-02-24 18:34:02) [PUT]
+  Parameters: {"id"=>"1"}
+Redirected to http://test.host/activities/%23%3CMocha::Mock:0x1033b8e00%3E
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/activities/1]
+
+
+Processing ActivitiesController#update (for 0.0.0.0 at 2010-02-24 18:34:02) [PUT]
+  Parameters: {"id"=>"1"}
+Redirected to http://test.host/activities/%23%3CMocha::Mock:0x1033a3ca8%3E
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/activities/1]
+
+
+Processing ActivitiesController#create (for 0.0.0.0 at 2010-02-24 18:34:02) [POST]
+  Parameters: {"activity"=>{"these"=>"params"}}
+Rendering template within layouts/application
+Rendering activities/new
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/activities?activity%5Bthese%5D=params]
+
+
+Processing ActivitiesController#create (for 0.0.0.0 at 2010-02-24 18:34:02) [POST]
+  Parameters: {"activity"=>{}}
+Rendering template within layouts/application
+Rendering activities/new
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/activities?]
+
+
+Processing ActivitiesController#create (for 0.0.0.0 at 2010-02-24 18:34:02) [POST]
+  Parameters: {"activity"=>{"these"=>"params"}}
+Redirected to http://test.host/activities/%23%3CMocha::Mock:0x10334e780%3E
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/activities?activity%5Bthese%5D=params]
+
+
+Processing ActivitiesController#create (for 0.0.0.0 at 2010-02-24 18:34:02) [POST]
+  Parameters: {"activity"=>{}}
+Redirected to http://test.host/activities/%23%3CMocha::Mock:0x10332b6e0%3E
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/activities?]
+
+
+Processing ActivitiesController#edit (for 0.0.0.0 at 2010-02-24 18:34:02) [GET]
+  Parameters: {"id"=>"37"}
+Rendering template within layouts/application
+Rendering activities/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/activities/37/edit]
+
+
+Processing ActivitiesController#new (for 0.0.0.0 at 2010-02-24 18:34:02) [GET]
+Rendering template within layouts/application
+Rendering activities/new
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/activities/new]
+
+
+Processing ActivitiesController#show (for 0.0.0.0 at 2010-02-24 18:34:02) [GET]
+  Parameters: {"id"=>"37"}
+Rendering template within layouts/application
+Rendering activities/show
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/activities/37]
+
+
+Processing ActivitiesController#index (for 0.0.0.0 at 2010-02-24 18:34:02) [GET]
+Rendering template within layouts/application
+Rendering activities/index
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/activities]
+
+
+Processing ActivitiesController#index (for 0.0.0.0 at 2010-02-24 18:34:02) [GET]
+  [4;36;1mActivity Load (0.6ms)[0m   [0;1mSELECT * FROM "activities" ORDER BY position[0m
+Rendering template within layouts/application
+Rendering activities/index
+Completed in 2ms (View: 0, DB: 1) | 200 OK [http://test.host/activities]
+
+
+Processing ActivitiesController#destroy (for 0.0.0.0 at 2010-02-24 18:37:24) [DELETE]
+  Parameters: {"id"=>"37"}
+Redirected to http://test.host/activities
+Completed in 2ms (DB: 1) | 302 Found [http://test.host/activities/37]
+
+
+Processing ActivitiesController#destroy (for 0.0.0.0 at 2010-02-24 18:37:24) [DELETE]
+  Parameters: {"id"=>"1"}
+Redirected to http://test.host/activities
+Completed in 0ms (DB: 0) | 302 Found [http://test.host/activities/1]
+
+
+Processing ActivitiesController#update (for 0.0.0.0 at 2010-02-24 18:37:24) [PUT]
+  Parameters: {"activity"=>{"these"=>"params"}, "id"=>"37"}
+Rendering template within layouts/application
+Rendering activities/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/activities/37?activity%5Bthese%5D=params]
+
+
+Processing ActivitiesController#update (for 0.0.0.0 at 2010-02-24 18:37:24) [PUT]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/application
+Rendering activities/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/activities/1]
+
+
+Processing ActivitiesController#update (for 0.0.0.0 at 2010-02-24 18:37:24) [PUT]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/application
+Rendering activities/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/activities/1]
+
+
+Processing ActivitiesController#update (for 0.0.0.0 at 2010-02-24 18:37:24) [PUT]
+  Parameters: {"activity"=>{"these"=>"params"}, "id"=>"37"}
+Rendering template within layouts/application
+Rendering activities/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/activities/37?activity%5Bthese%5D=params]
+
+
+Processing ActivitiesController#update (for 0.0.0.0 at 2010-02-24 18:37:24) [PUT]
+  Parameters: {"id"=>"1"}
+Redirected to http://test.host/activities/%23%3CMocha::Mock:0x1033b8fb8%3E
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/activities/1]
+
+
+Processing ActivitiesController#update (for 0.0.0.0 at 2010-02-24 18:37:24) [PUT]
+  Parameters: {"id"=>"1"}
+
+
+Processing ActivitiesController#create (for 0.0.0.0 at 2010-02-24 18:37:24) [POST]
+  Parameters: {"activity"=>{"these"=>"params"}}
+Rendering template within layouts/application
+Rendering activities/new
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/activities?activity%5Bthese%5D=params]
+
+
+Processing ActivitiesController#create (for 0.0.0.0 at 2010-02-24 18:37:24) [POST]
+  Parameters: {"activity"=>{}}
+Rendering template within layouts/application
+Rendering activities/new
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/activities?]
+
+
+Processing ActivitiesController#create (for 0.0.0.0 at 2010-02-24 18:37:24) [POST]
+  Parameters: {"activity"=>{"these"=>"params"}}
+Redirected to http://test.host/activities/%23%3CMocha::Mock:0x103346c38%3E
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/activities?activity%5Bthese%5D=params]
+
+
+Processing ActivitiesController#create (for 0.0.0.0 at 2010-02-24 18:37:24) [POST]
+  Parameters: {"activity"=>{}}
+Redirected to http://test.host/activities/%23%3CMocha::Mock:0x1033289e0%3E
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/activities?]
+
+
+Processing ActivitiesController#edit (for 0.0.0.0 at 2010-02-24 18:37:24) [GET]
+  Parameters: {"id"=>"37"}
+Rendering template within layouts/application
+Rendering activities/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/activities/37/edit]
+
+
+Processing ActivitiesController#new (for 0.0.0.0 at 2010-02-24 18:37:24) [GET]
+Rendering template within layouts/application
+Rendering activities/new
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/activities/new]
+
+
+Processing ActivitiesController#show (for 0.0.0.0 at 2010-02-24 18:37:24) [GET]
+  Parameters: {"id"=>"37"}
+Rendering template within layouts/application
+Rendering activities/show
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/activities/37]
+
+
+Processing ActivitiesController#index (for 0.0.0.0 at 2010-02-24 18:37:24) [GET]
+Rendering template within layouts/application
+Rendering activities/index
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/activities]
+
+
+Processing ActivitiesController#index (for 0.0.0.0 at 2010-02-24 18:37:24) [GET]
+  [4;36;1mActivity Load (0.6ms)[0m   [0;1mSELECT * FROM "activities" ORDER BY position[0m
+Rendering template within layouts/application
+Rendering activities/index
+Completed in 2ms (View: 0, DB: 1) | 200 OK [http://test.host/activities]
+
+
+Processing ActivitiesController#destroy (for 0.0.0.0 at 2010-02-24 18:41:49) [DELETE]
+  Parameters: {"id"=>"37"}
+Redirected to http://test.host/activities
+Completed in 2ms (DB: 1) | 302 Found [http://test.host/activities/37]
+
+
+Processing ActivitiesController#destroy (for 0.0.0.0 at 2010-02-24 18:41:49) [DELETE]
+  Parameters: {"id"=>"1"}
+Redirected to http://test.host/activities
+Completed in 0ms (DB: 0) | 302 Found [http://test.host/activities/1]
+
+
+Processing ActivitiesController#update (for 0.0.0.0 at 2010-02-24 18:41:49) [PUT]
+  Parameters: {"activity"=>{"these"=>"params"}, "id"=>"37"}
+Rendering template within layouts/application
+Rendering activities/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/activities/37?activity%5Bthese%5D=params]
+
+
+Processing ActivitiesController#update (for 0.0.0.0 at 2010-02-24 18:41:49) [PUT]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/application
+Rendering activities/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/activities/1]
+
+
+Processing ActivitiesController#update (for 0.0.0.0 at 2010-02-24 18:41:49) [PUT]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/application
+Rendering activities/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/activities/1]
+
+
+Processing ActivitiesController#update (for 0.0.0.0 at 2010-02-24 18:41:49) [PUT]
+  Parameters: {"activity"=>{"these"=>"params"}, "id"=>"37"}
+Rendering template within layouts/application
+Rendering activities/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/activities/37?activity%5Bthese%5D=params]
+
+
+Processing ActivitiesController#update (for 0.0.0.0 at 2010-02-24 18:41:49) [PUT]
+  Parameters: {"id"=>"1"}
+Redirected to http://test.host/activities/%23%3CMocha::Mock:0x1033b8e50%3E
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/activities/1]
+
+
+Processing ActivitiesController#update (for 0.0.0.0 at 2010-02-24 18:41:49) [PUT]
+  Parameters: {"id"=>"1"}
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.2ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+
+
+Processing ActivitiesController#create (for 0.0.0.0 at 2010-02-24 18:41:49) [POST]
+  Parameters: {"activity"=>{"these"=>"params"}}
+Rendering template within layouts/application
+Rendering activities/new
+Completed in 1ms (View: 0, DB: 1) | 200 OK [http://test.host/activities?activity%5Bthese%5D=params]
+
+
+Processing ActivitiesController#create (for 0.0.0.0 at 2010-02-24 18:41:49) [POST]
+  Parameters: {"activity"=>{}}
+Rendering template within layouts/application
+Rendering activities/new
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/activities?]
+
+
+Processing ActivitiesController#create (for 0.0.0.0 at 2010-02-24 18:41:49) [POST]
+  Parameters: {"activity"=>{"these"=>"params"}}
+Redirected to http://test.host/activities/%23%3CMocha::Mock:0x103329700%3E
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/activities?activity%5Bthese%5D=params]
+
+
+Processing ActivitiesController#create (for 0.0.0.0 at 2010-02-24 18:41:49) [POST]
+  Parameters: {"activity"=>{}}
+Redirected to http://test.host/activities/%23%3CMocha::Mock:0x1032fc3b8%3E
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/activities?]
+
+
+Processing ActivitiesController#edit (for 0.0.0.0 at 2010-02-24 18:41:49) [GET]
+  Parameters: {"id"=>"37"}
+Rendering template within layouts/application
+Rendering activities/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/activities/37/edit]
+
+
+Processing ActivitiesController#new (for 0.0.0.0 at 2010-02-24 18:41:49) [GET]
+Rendering template within layouts/application
+Rendering activities/new
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/activities/new]
+
+
+Processing ActivitiesController#show (for 0.0.0.0 at 2010-02-24 18:41:49) [GET]
+  Parameters: {"id"=>"37"}
+Rendering template within layouts/application
+Rendering activities/show
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/activities/37]
+
+
+Processing ActivitiesController#index (for 0.0.0.0 at 2010-02-24 18:41:49) [GET]
+Rendering template within layouts/application
+Rendering activities/index
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/activities]
+
+
+Processing ActivitiesController#index (for 0.0.0.0 at 2010-02-24 18:41:49) [GET]
+  [4;36;1mActivity Load (0.6ms)[0m   [0;1mSELECT * FROM "activities" ORDER BY position[0m
+Rendering template within layouts/application
+Rendering activities/index
+Completed in 2ms (View: 0, DB: 1) | 200 OK [http://test.host/activities]
+
+
+Processing ActivitiesController#destroy (for 0.0.0.0 at 2010-02-24 18:59:07) [DELETE]
+  Parameters: {"id"=>"37"}
+Redirected to http://test.host/activities
+Completed in 2ms (DB: 1) | 302 Found [http://test.host/activities/37]
+
+
+Processing ActivitiesController#destroy (for 0.0.0.0 at 2010-02-24 18:59:07) [DELETE]
+  Parameters: {"id"=>"1"}
+Redirected to http://test.host/activities
+Completed in 0ms (DB: 0) | 302 Found [http://test.host/activities/1]
+
+
+Processing ActivitiesController#update (for 0.0.0.0 at 2010-02-24 18:59:07) [PUT]
+  Parameters: {"activity"=>{"these"=>"params"}, "id"=>"37"}
+Rendering template within layouts/application
+Rendering activities/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/activities/37?activity%5Bthese%5D=params]
+
+
+Processing ActivitiesController#update (for 0.0.0.0 at 2010-02-24 18:59:07) [PUT]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/application
+Rendering activities/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/activities/1]
+
+
+Processing ActivitiesController#update (for 0.0.0.0 at 2010-02-24 18:59:07) [PUT]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/application
+Rendering activities/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/activities/1]
+
+
+Processing ActivitiesController#update (for 0.0.0.0 at 2010-02-24 18:59:07) [PUT]
+  Parameters: {"activity"=>{"these"=>"params"}, "id"=>"37"}
+Rendering template within layouts/application
+Rendering activities/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/activities/37?activity%5Bthese%5D=params]
+
+
+Processing ActivitiesController#update (for 0.0.0.0 at 2010-02-24 18:59:07) [PUT]
+  Parameters: {"id"=>"1"}
+
+
+Processing ActivitiesController#update (for 0.0.0.0 at 2010-02-24 18:59:07) [PUT]
+  Parameters: {"id"=>"1"}
+Redirected to http://test.host/activities/%23%3CMocha::Mock:0x1033a3938%3E
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/activities/1]
+
+
+Processing ActivitiesController#create (for 0.0.0.0 at 2010-02-24 18:59:07) [POST]
+  Parameters: {"activity"=>{"these"=>"params"}}
+Rendering template within layouts/application
+Rendering activities/new
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/activities?activity%5Bthese%5D=params]
+
+
+Processing ActivitiesController#create (for 0.0.0.0 at 2010-02-24 18:59:07) [POST]
+  Parameters: {"activity"=>{}}
+Rendering template within layouts/application
+Rendering activities/new
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/activities?]
+
+
+Processing ActivitiesController#create (for 0.0.0.0 at 2010-02-24 18:59:07) [POST]
+  Parameters: {"activity"=>{"these"=>"params"}}
+Redirected to http://test.host/activities/%23%3CMocha::Mock:0x10334ac70%3E
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/activities?activity%5Bthese%5D=params]
+
+
+Processing ActivitiesController#create (for 0.0.0.0 at 2010-02-24 18:59:07) [POST]
+  Parameters: {"activity"=>{}}
+Redirected to http://test.host/activities/%23%3CMocha::Mock:0x10332ac18%3E
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/activities?]
+
+
+Processing ActivitiesController#edit (for 0.0.0.0 at 2010-02-24 18:59:07) [GET]
+  Parameters: {"id"=>"37"}
+Rendering template within layouts/application
+Rendering activities/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/activities/37/edit]
+
+
+Processing ActivitiesController#new (for 0.0.0.0 at 2010-02-24 18:59:07) [GET]
+Rendering template within layouts/application
+Rendering activities/new
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/activities/new]
+
+
+Processing ActivitiesController#show (for 0.0.0.0 at 2010-02-24 18:59:07) [GET]
+  Parameters: {"id"=>"37"}
+Rendering template within layouts/application
+Rendering activities/show
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/activities/37]
+
+
+Processing ActivitiesController#index (for 0.0.0.0 at 2010-02-24 18:59:07) [GET]
+Rendering template within layouts/application
+Rendering activities/index
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/activities]
+
+
+Processing ActivitiesController#index (for 0.0.0.0 at 2010-02-24 18:59:07) [GET]
+  [4;36;1mActivity Load (0.6ms)[0m   [0;1mSELECT * FROM "activities" ORDER BY position[0m
+Rendering template within layouts/application
+Rendering activities/index
+Completed in 2ms (View: 0, DB: 1) | 200 OK [http://test.host/activities]
+
+
+Processing ActivitiesController#destroy (for 0.0.0.0 at 2010-02-24 18:59:37) [DELETE]
+  Parameters: {"id"=>"37"}
+Redirected to http://test.host/activities
+Completed in 2ms (DB: 1) | 302 Found [http://test.host/activities/37]
+
+
+Processing ActivitiesController#destroy (for 0.0.0.0 at 2010-02-24 18:59:37) [DELETE]
+  Parameters: {"id"=>"1"}
+Redirected to http://test.host/activities
+Completed in 0ms (DB: 0) | 302 Found [http://test.host/activities/1]
+
+
+Processing ActivitiesController#update (for 0.0.0.0 at 2010-02-24 18:59:37) [PUT]
+  Parameters: {"activity"=>{"these"=>"params"}, "id"=>"37"}
+Rendering template within layouts/application
+Rendering activities/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/activities/37?activity%5Bthese%5D=params]
+
+
+Processing ActivitiesController#update (for 0.0.0.0 at 2010-02-24 18:59:37) [PUT]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/application
+Rendering activities/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/activities/1]
+
+
+Processing ActivitiesController#update (for 0.0.0.0 at 2010-02-24 18:59:37) [PUT]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/application
+Rendering activities/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/activities/1]
+
+
+Processing ActivitiesController#update (for 0.0.0.0 at 2010-02-24 18:59:37) [PUT]
+  Parameters: {"activity"=>{"these"=>"params"}, "id"=>"37"}
+Rendering template within layouts/application
+Rendering activities/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/activities/37?activity%5Bthese%5D=params]
+
+
+Processing ActivitiesController#update (for 0.0.0.0 at 2010-02-24 18:59:37) [PUT]
+  Parameters: {"id"=>"1"}
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.2ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+
+
+Processing ActivitiesController#update (for 0.0.0.0 at 2010-02-24 18:59:37) [PUT]
+  Parameters: {"id"=>"1"}
+Redirected to http://test.host/activities/%23%3CMocha::Mock:0x10338ab40%3E
+Completed in 1ms (DB: 1) | 302 Found [http://test.host/activities/1]
+
+
+Processing ActivitiesController#create (for 0.0.0.0 at 2010-02-24 18:59:37) [POST]
+  Parameters: {"activity"=>{"these"=>"params"}}
+Rendering template within layouts/application
+Rendering activities/new
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/activities?activity%5Bthese%5D=params]
+
+
+Processing ActivitiesController#create (for 0.0.0.0 at 2010-02-24 18:59:37) [POST]
+  Parameters: {"activity"=>{}}
+Rendering template within layouts/application
+Rendering activities/new
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/activities?]
+
+
+Processing ActivitiesController#create (for 0.0.0.0 at 2010-02-24 18:59:37) [POST]
+  Parameters: {"activity"=>{"these"=>"params"}}
+Redirected to http://test.host/activities/%23%3CMocha::Mock:0x10332b5c8%3E
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/activities?activity%5Bthese%5D=params]
+
+
+Processing ActivitiesController#create (for 0.0.0.0 at 2010-02-24 18:59:37) [POST]
+  Parameters: {"activity"=>{}}
+Redirected to http://test.host/activities/%23%3CMocha::Mock:0x103302998%3E
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/activities?]
+
+
+Processing ActivitiesController#edit (for 0.0.0.0 at 2010-02-24 18:59:37) [GET]
+  Parameters: {"id"=>"37"}
+Rendering template within layouts/application
+Rendering activities/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/activities/37/edit]
+
+
+Processing ActivitiesController#new (for 0.0.0.0 at 2010-02-24 18:59:37) [GET]
+Rendering template within layouts/application
+Rendering activities/new
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/activities/new]
+
+
+Processing ActivitiesController#show (for 0.0.0.0 at 2010-02-24 18:59:37) [GET]
+  Parameters: {"id"=>"37"}
+Rendering template within layouts/application
+Rendering activities/show
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/activities/37]
+
+
+Processing ActivitiesController#index (for 0.0.0.0 at 2010-02-24 18:59:37) [GET]
+Rendering template within layouts/application
+Rendering activities/index
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/activities]
+
+
+Processing ActivitiesController#index (for 0.0.0.0 at 2010-02-24 18:59:37) [GET]
+  [4;36;1mActivity Load (0.6ms)[0m   [0;1mSELECT * FROM "activities" ORDER BY position[0m
+Rendering template within layouts/application
+Rendering activities/index
+Completed in 2ms (View: 0, DB: 1) | 200 OK [http://test.host/activities]
+
+
+Processing ActivitiesController#destroy (for 0.0.0.0 at 2010-02-24 19:00:43) [DELETE]
+  Parameters: {"id"=>"37"}
+Redirected to http://test.host/activities
+Completed in 2ms (DB: 1) | 302 Found [http://test.host/activities/37]
+
+
+Processing ActivitiesController#destroy (for 0.0.0.0 at 2010-02-24 19:00:43) [DELETE]
+  Parameters: {"id"=>"1"}
+Redirected to http://test.host/activities
+Completed in 0ms (DB: 0) | 302 Found [http://test.host/activities/1]
+
+
+Processing ActivitiesController#update (for 0.0.0.0 at 2010-02-24 19:00:43) [PUT]
+  Parameters: {"activity"=>{"these"=>"params"}, "id"=>"37"}
+Rendering template within layouts/application
+Rendering activities/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/activities/37?activity%5Bthese%5D=params]
+
+
+Processing ActivitiesController#update (for 0.0.0.0 at 2010-02-24 19:00:43) [PUT]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/application
+Rendering activities/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/activities/1]
+
+
+Processing ActivitiesController#update (for 0.0.0.0 at 2010-02-24 19:00:43) [PUT]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/application
+Rendering activities/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/activities/1]
+
+
+Processing ActivitiesController#update (for 0.0.0.0 at 2010-02-24 19:00:43) [PUT]
+  Parameters: {"activity"=>{"these"=>"params"}, "id"=>"37"}
+Rendering template within layouts/application
+Rendering activities/edit
+Completed in 1ms (View: 1, DB: 0) | 200 OK [http://test.host/activities/37?activity%5Bthese%5D=params]
+
+
+Processing ActivitiesController#update (for 0.0.0.0 at 2010-02-24 19:00:43) [PUT]
+  Parameters: {"id"=>"1"}
+
+
+Processing ActivitiesController#update (for 0.0.0.0 at 2010-02-24 19:00:43) [PUT]
+  Parameters: {"id"=>"1"}
+Redirected to http://test.host/activities/%23%3CMocha::Mock:0x10338d840%3E
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/activities/1]
+
+
+Processing ActivitiesController#create (for 0.0.0.0 at 2010-02-24 19:00:43) [POST]
+  Parameters: {"activity"=>{"these"=>"params"}}
+Rendering template within layouts/application
+Rendering activities/new
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/activities?activity%5Bthese%5D=params]
+
+
+Processing ActivitiesController#create (for 0.0.0.0 at 2010-02-24 19:00:43) [POST]
+  Parameters: {"activity"=>{}}
+Rendering template within layouts/application
+Rendering activities/new
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/activities?]
+
+
+Processing ActivitiesController#create (for 0.0.0.0 at 2010-02-24 19:00:43) [POST]
+  Parameters: {"activity"=>{"these"=>"params"}}
+Redirected to http://test.host/activities/%23%3CMocha::Mock:0x10332e688%3E
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/activities?activity%5Bthese%5D=params]
+
+
+Processing ActivitiesController#create (for 0.0.0.0 at 2010-02-24 19:00:43) [POST]
+  Parameters: {"activity"=>{}}
+Redirected to http://test.host/activities/%23%3CMocha::Mock:0x103306fc0%3E
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/activities?]
+
+
+Processing ActivitiesController#edit (for 0.0.0.0 at 2010-02-24 19:00:43) [GET]
+  Parameters: {"id"=>"37"}
+Rendering template within layouts/application
+Rendering activities/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/activities/37/edit]
+
+
+Processing ActivitiesController#new (for 0.0.0.0 at 2010-02-24 19:00:43) [GET]
+Rendering template within layouts/application
+Rendering activities/new
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/activities/new]
+
+
+Processing ActivitiesController#show (for 0.0.0.0 at 2010-02-24 19:00:43) [GET]
+  Parameters: {"id"=>"37"}
+Rendering template within layouts/application
+Rendering activities/show
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/activities/37]
+
+
+Processing ActivitiesController#index (for 0.0.0.0 at 2010-02-24 19:00:43) [GET]
+Rendering template within layouts/application
+Rendering activities/index
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/activities]
+
+
+Processing ActivitiesController#index (for 0.0.0.0 at 2010-02-24 19:00:43) [GET]
+  [4;36;1mActivity Load (0.6ms)[0m   [0;1mSELECT * FROM "activities" ORDER BY position[0m
+Rendering template within layouts/application
+Rendering activities/index
+Completed in 2ms (View: 0, DB: 1) | 200 OK [http://test.host/activities]
+
+
+Processing ActivitiesController#destroy (for 0.0.0.0 at 2010-02-24 20:04:49) [DELETE]
+  Parameters: {"id"=>"37"}
+Redirected to http://test.host/activities
+Completed in 2ms (DB: 1) | 302 Found [http://test.host/activities/37]
+
+
+Processing ActivitiesController#destroy (for 0.0.0.0 at 2010-02-24 20:04:49) [DELETE]
+  Parameters: {"id"=>"1"}
+Redirected to http://test.host/activities
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/activities/1]
+
+
+Processing ActivitiesController#update (for 0.0.0.0 at 2010-02-24 20:04:49) [PUT]
+  Parameters: {"activity"=>{"these"=>"params"}, "id"=>"37"}
+Rendering template within layouts/application
+Rendering activities/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/activities/37?activity%5Bthese%5D=params]
+
+
+Processing ActivitiesController#update (for 0.0.0.0 at 2010-02-24 20:04:49) [PUT]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/application
+Rendering activities/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/activities/1]
+
+
+Processing ActivitiesController#update (for 0.0.0.0 at 2010-02-24 20:04:49) [PUT]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/application
+Rendering activities/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/activities/1]
+
+
+Processing ActivitiesController#update (for 0.0.0.0 at 2010-02-24 20:04:49) [PUT]
+  Parameters: {"activity"=>{"these"=>"params"}, "id"=>"37"}
+Rendering template within layouts/application
+Rendering activities/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/activities/37?activity%5Bthese%5D=params]
+
+
+Processing ActivitiesController#update (for 0.0.0.0 at 2010-02-24 20:04:49) [PUT]
+  Parameters: {"id"=>"1"}
+Redirected to http://test.host/activities/%23%3CMocha::Mock:0x1032487f0%3E
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/activities/1]
+
+
+Processing ActivitiesController#update (for 0.0.0.0 at 2010-02-24 20:04:49) [PUT]
+  Parameters: {"id"=>"1"}
+Redirected to http://test.host/activities/%23%3CMocha::Mock:0x10321cda8%3E
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/activities/1]
+
+
+Processing ActivitiesController#create (for 0.0.0.0 at 2010-02-24 20:04:49) [POST]
+  Parameters: {"activity"=>{"these"=>"params"}}
+Rendering template within layouts/application
+Rendering activities/new
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/activities?activity%5Bthese%5D=params]
+
+
+Processing ActivitiesController#create (for 0.0.0.0 at 2010-02-24 20:04:49) [POST]
+  Parameters: {"activity"=>{}}
+Rendering template within layouts/application
+Rendering activities/new
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/activities?]
+
+
+Processing ActivitiesController#create (for 0.0.0.0 at 2010-02-24 20:04:49) [POST]
+  Parameters: {"activity"=>{"these"=>"params"}}
+Redirected to http://test.host/activities/%23%3CMocha::Mock:0x1031d20c8%3E
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/activities?activity%5Bthese%5D=params]
+
+
+Processing ActivitiesController#create (for 0.0.0.0 at 2010-02-24 20:04:49) [POST]
+  Parameters: {"activity"=>{}}
+Redirected to http://test.host/activities/%23%3CMocha::Mock:0x1031b0ce8%3E
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/activities?]
+
+
+Processing ActivitiesController#edit (for 0.0.0.0 at 2010-02-24 20:04:49) [GET]
+  Parameters: {"id"=>"37"}
+Rendering template within layouts/application
+Rendering activities/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/activities/37/edit]
+
+
+Processing ActivitiesController#new (for 0.0.0.0 at 2010-02-24 20:04:49) [GET]
+Rendering template within layouts/application
+Rendering activities/new
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/activities/new]
+
+
+Processing ActivitiesController#show (for 0.0.0.0 at 2010-02-24 20:04:49) [GET]
+  Parameters: {"id"=>"37"}
+Rendering template within layouts/application
+Rendering activities/show
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/activities/37]
+
+
+Processing ActivitiesController#index (for 0.0.0.0 at 2010-02-24 20:04:49) [GET]
+Rendering template within layouts/application
+Rendering activities/index
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/activities]
+
+
+Processing ActivitiesController#index (for 0.0.0.0 at 2010-02-24 20:04:49) [GET]
+  [4;36;1mActivity Load (0.6ms)[0m   [0;1mSELECT * FROM "activities" ORDER BY position[0m
+Rendering template within layouts/application
+Rendering activities/index
+Completed in 2ms (View: 0, DB: 1) | 200 OK [http://test.host/activities]
+
+
+Processing TodaysActivitiesController#index (for 0.0.0.0 at 2010-02-24 20:04:49) [GET]
+Rendering template within layouts/application
+Rendering todays_activities/index
+Completed in 2ms (View: 0, DB: 0) | 200 OK [http://test.host/todays_activities]
+
+
+Processing TodaysActivitiesController#index (for 0.0.0.0 at 2010-02-24 20:04:49) [GET]
+  [4;35;1mActivity Load (0.6ms)[0m   [0mSELECT * FROM "activities" ORDER BY position[0m
+Rendering template within layouts/application
+Rendering todays_activities/index
+Completed in 2ms (View: 0, DB: 1) | 200 OK [http://test.host/todays_activities]
+  [4;36;1mActivity Load (0.4ms)[0m   [0;1mSELECT * FROM "activities" ORDER BY position[0m
+  [4;36;1mActivity Load (0.4ms)[0m   [0;1mSELECT * FROM "activities" ORDER BY position[0m
+  [4;36;1mActivity Load (0.4ms)[0m   [0;1mSELECT * FROM "activities" ORDER BY position[0m
+
+
+Processing ActivitiesController#destroy (for 0.0.0.0 at 2010-02-24 20:31:53) [DELETE]
+  Parameters: {"id"=>"37"}
+Redirected to http://test.host/activities
+Completed in 2ms (DB: 1) | 302 Found [http://test.host/activities/37]
+
+
+Processing ActivitiesController#destroy (for 0.0.0.0 at 2010-02-24 20:31:53) [DELETE]
+  Parameters: {"id"=>"1"}
+Redirected to http://test.host/activities
+Completed in 0ms (DB: 0) | 302 Found [http://test.host/activities/1]
+
+
+Processing ActivitiesController#update (for 0.0.0.0 at 2010-02-24 20:31:53) [PUT]
+  Parameters: {"activity"=>{"these"=>"params"}, "id"=>"37"}
+Rendering template within layouts/application
+Rendering activities/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/activities/37?activity%5Bthese%5D=params]
+
+
+Processing ActivitiesController#update (for 0.0.0.0 at 2010-02-24 20:31:53) [PUT]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/application
+Rendering activities/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/activities/1]
+
+
+Processing ActivitiesController#update (for 0.0.0.0 at 2010-02-24 20:31:53) [PUT]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/application
+Rendering activities/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/activities/1]
+
+
+Processing ActivitiesController#update (for 0.0.0.0 at 2010-02-24 20:31:53) [PUT]
+  Parameters: {"activity"=>{"these"=>"params"}, "id"=>"37"}
+Rendering template within layouts/application
+Rendering activities/edit
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://test.host/activities/37?activity%5Bthese%5D=params]
+
+
+Processing ActivitiesController#update (for 0.0.0.0 at 2010-02-24 20:31:53) [PUT]
+  Parameters: {"id"=>"1"}
+Redirected to http://test.host/activities/%23%3CMocha::Mock:0x1033be0f8%3E
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/activities/1]
+
+
+Processing ActivitiesController#update (for 0.0.0.0 at 2010-02-24 20:31:53) [PUT]
+  Parameters: {"id"=>"1"}
+Redirected to http://test.host/activities/%23%3CMocha::Mock:0x1033a76f0%3E
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/activities/1]
+
+
+Processing ActivitiesController#create (for 0.0.0.0 at 2010-02-24 20:31:53) [POST]
+  Parameters: {"activity"=>{"these"=>"params"}}
+Rendering template within layouts/application
+Rendering activities/new
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/activities?activity%5Bthese%5D=params]
+
+
+Processing ActivitiesController#create (for 0.0.0.0 at 2010-02-24 20:31:53) [POST]
+  Parameters: {"activity"=>{}}
+Rendering template within layouts/application
+Rendering activities/new
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/activities?]
+
+
+Processing ActivitiesController#create (for 0.0.0.0 at 2010-02-24 20:31:53) [POST]
+  Parameters: {"activity"=>{"these"=>"params"}}
+Redirected to http://test.host/activities/%23%3CMocha::Mock:0x10334ac20%3E
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/activities?activity%5Bthese%5D=params]
+
+
+Processing ActivitiesController#create (for 0.0.0.0 at 2010-02-24 20:31:53) [POST]
+  Parameters: {"activity"=>{}}
+Redirected to http://test.host/activities/%23%3CMocha::Mock:0x103321eb0%3E
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/activities?]
+
+
+Processing ActivitiesController#edit (for 0.0.0.0 at 2010-02-24 20:31:53) [GET]
+  Parameters: {"id"=>"37"}
+Rendering template within layouts/application
+Rendering activities/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/activities/37/edit]
+
+
+Processing ActivitiesController#new (for 0.0.0.0 at 2010-02-24 20:31:53) [GET]
+Rendering template within layouts/application
+Rendering activities/new
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/activities/new]
+
+
+Processing ActivitiesController#show (for 0.0.0.0 at 2010-02-24 20:31:53) [GET]
+  Parameters: {"id"=>"37"}
+Rendering template within layouts/application
+Rendering activities/show
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/activities/37]
+
+
+Processing ActivitiesController#index (for 0.0.0.0 at 2010-02-24 20:31:53) [GET]
+Rendering template within layouts/application
+Rendering activities/index
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/activities]
+
+
+Processing ActivitiesController#index (for 0.0.0.0 at 2010-02-24 20:31:53) [GET]
+  [4;35;1mActivity Load (0.6ms)[0m   [0mSELECT * FROM "activities" ORDER BY position[0m
+Rendering template within layouts/application
+Rendering activities/index
+Completed in 2ms (View: 0, DB: 1) | 200 OK [http://test.host/activities]
+
+
+Processing TodaysActivitiesController#index (for 0.0.0.0 at 2010-02-24 20:31:53) [GET]
+Rendering template within layouts/application
+Rendering todays_activities/index
+Completed in 2ms (View: 0, DB: 0) | 200 OK [http://test.host/todays_activities]
+
+
+Processing TodaysActivitiesController#index (for 0.0.0.0 at 2010-02-24 20:31:53) [GET]
+  [4;36;1mActivity Load (0.6ms)[0m   [0;1mSELECT * FROM "activities" ORDER BY position[0m
+Rendering template within layouts/application
+Rendering todays_activities/index
+Completed in 2ms (View: 0, DB: 1) | 200 OK [http://test.host/todays_activities]
+  [4;36;1mActivity Load (0.4ms)[0m   [0;1mSELECT * FROM "activities" ORDER BY position[0m
+  [4;36;1mActivity Load (0.4ms)[0m   [0;1mSELECT * FROM "activities" ORDER BY position[0m
+  [4;36;1mActivity Load (0.4ms)[0m   [0;1mSELECT * FROM "activities" ORDER BY position[0m
+  [4;36;1mActivity Load (0.4ms)[0m   [0;1mSELECT * FROM "activities" ORDER BY position[0m
+
+
+Processing ActivitiesController#destroy (for 0.0.0.0 at 2010-02-24 20:40:08) [DELETE]
+  Parameters: {"id"=>"37"}
+Redirected to http://test.host/activities
+Completed in 2ms (DB: 1) | 302 Found [http://test.host/activities/37]
+
+
+Processing ActivitiesController#destroy (for 0.0.0.0 at 2010-02-24 20:40:08) [DELETE]
+  Parameters: {"id"=>"1"}
+Redirected to http://test.host/activities
+Completed in 0ms (DB: 0) | 302 Found [http://test.host/activities/1]
+
+
+Processing ActivitiesController#update (for 0.0.0.0 at 2010-02-24 20:40:08) [PUT]
+  Parameters: {"activity"=>{"these"=>"params"}, "id"=>"37"}
+Rendering template within layouts/application
+Rendering activities/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/activities/37?activity%5Bthese%5D=params]
+
+
+Processing ActivitiesController#update (for 0.0.0.0 at 2010-02-24 20:40:08) [PUT]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/application
+Rendering activities/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/activities/1]
+
+
+Processing ActivitiesController#update (for 0.0.0.0 at 2010-02-24 20:40:08) [PUT]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/application
+Rendering activities/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/activities/1]
+
+
+Processing ActivitiesController#update (for 0.0.0.0 at 2010-02-24 20:40:08) [PUT]
+  Parameters: {"activity"=>{"these"=>"params"}, "id"=>"37"}
+Rendering template within layouts/application
+Rendering activities/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/activities/37?activity%5Bthese%5D=params]
+
+
+Processing ActivitiesController#update (for 0.0.0.0 at 2010-02-24 20:40:08) [PUT]
+  Parameters: {"id"=>"1"}
+Redirected to http://test.host/activities/%23%3CMocha::Mock:0x1033bd040%3E
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/activities/1]
+
+
+Processing ActivitiesController#update (for 0.0.0.0 at 2010-02-24 20:40:08) [PUT]
+  Parameters: {"id"=>"1"}
+Redirected to http://test.host/activities/%23%3CMocha::Mock:0x1033a64f8%3E
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/activities/1]
+
+
+Processing ActivitiesController#create (for 0.0.0.0 at 2010-02-24 20:40:08) [POST]
+  Parameters: {"activity"=>{"these"=>"params"}}
+Rendering template within layouts/application
+Rendering activities/new
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/activities?activity%5Bthese%5D=params]
+
+
+Processing ActivitiesController#create (for 0.0.0.0 at 2010-02-24 20:40:08) [POST]
+  Parameters: {"activity"=>{}}
+Rendering template within layouts/application
+Rendering activities/new
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/activities?]
+
+
+Processing ActivitiesController#create (for 0.0.0.0 at 2010-02-24 20:40:08) [POST]
+  Parameters: {"activity"=>{"these"=>"params"}}
+Redirected to http://test.host/activities/%23%3CMocha::Mock:0x103347a70%3E
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/activities?activity%5Bthese%5D=params]
+
+
+Processing ActivitiesController#create (for 0.0.0.0 at 2010-02-24 20:40:08) [POST]
+  Parameters: {"activity"=>{}}
+Redirected to http://test.host/activities/%23%3CMocha::Mock:0x10331e3c8%3E
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/activities?]
+
+
+Processing ActivitiesController#edit (for 0.0.0.0 at 2010-02-24 20:40:08) [GET]
+  Parameters: {"id"=>"37"}
+Rendering template within layouts/application
+Rendering activities/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/activities/37/edit]
+
+
+Processing ActivitiesController#new (for 0.0.0.0 at 2010-02-24 20:40:08) [GET]
+Rendering template within layouts/application
+Rendering activities/new
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/activities/new]
+
+
+Processing ActivitiesController#show (for 0.0.0.0 at 2010-02-24 20:40:08) [GET]
+  Parameters: {"id"=>"37"}
+Rendering template within layouts/application
+Rendering activities/show
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/activities/37]
+
+
+Processing ActivitiesController#index (for 0.0.0.0 at 2010-02-24 20:40:08) [GET]
+Rendering template within layouts/application
+Rendering activities/index
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/activities]
+
+
+Processing ActivitiesController#index (for 0.0.0.0 at 2010-02-24 20:40:08) [GET]
+  [4;35;1mActivity Load (0.6ms)[0m   [0mSELECT * FROM "activities" ORDER BY position[0m
+Rendering template within layouts/application
+Rendering activities/index
+Completed in 2ms (View: 0, DB: 1) | 200 OK [http://test.host/activities]
+
+
+Processing TodaysActivitiesController#index (for 0.0.0.0 at 2010-02-24 20:40:08) [GET]
+Rendering template within layouts/application
+Rendering todays_activities/index
+Completed in 2ms (View: 0, DB: 0) | 200 OK [http://test.host/todays_activities]
+
+
+Processing TodaysActivitiesController#index (for 0.0.0.0 at 2010-02-24 20:40:08) [GET]
+  [4;36;1mActivity Load (0.6ms)[0m   [0;1mSELECT * FROM "activities" ORDER BY position[0m
+Rendering template within layouts/application
+Rendering todays_activities/index
+Completed in 2ms (View: 0, DB: 1) | 200 OK [http://test.host/todays_activities]
+  [4;36;1mActivity Load (0.4ms)[0m   [0;1mSELECT * FROM "activities" ORDER BY position[0m
+  [4;36;1mActivity Load (0.4ms)[0m   [0;1mSELECT * FROM "activities" ORDER BY position[0m
+  [4;36;1mActivity Load (0.4ms)[0m   [0;1mSELECT * FROM "activities" ORDER BY position[0m
+
+
+Processing ActivitiesController#destroy (for 0.0.0.0 at 2010-02-26 09:49:39) [DELETE]
+  Parameters: {"id"=>"37"}
+Redirected to http://test.host/activities
+Completed in 2ms (DB: 1) | 302 Found [http://test.host/activities/37]
+
+
+Processing ActivitiesController#destroy (for 0.0.0.0 at 2010-02-26 09:49:39) [DELETE]
+  Parameters: {"id"=>"1"}
+Redirected to http://test.host/activities
+Completed in 0ms (DB: 0) | 302 Found [http://test.host/activities/1]
+
+
+Processing ActivitiesController#update (for 0.0.0.0 at 2010-02-26 09:49:39) [PUT]
+  Parameters: {"activity"=>{"these"=>"params"}, "id"=>"37"}
+Rendering template within layouts/application
+Rendering activities/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/activities/37?activity%5Bthese%5D=params]
+
+
+Processing ActivitiesController#update (for 0.0.0.0 at 2010-02-26 09:49:39) [PUT]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/application
+Rendering activities/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/activities/1]
+
+
+Processing ActivitiesController#update (for 0.0.0.0 at 2010-02-26 09:49:39) [PUT]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/application
+Rendering activities/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/activities/1]
+
+
+Processing ActivitiesController#update (for 0.0.0.0 at 2010-02-26 09:49:39) [PUT]
+  Parameters: {"activity"=>{"these"=>"params"}, "id"=>"37"}
+Rendering template within layouts/application
+Rendering activities/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/activities/37?activity%5Bthese%5D=params]
+
+
+Processing ActivitiesController#update (for 0.0.0.0 at 2010-02-26 09:49:39) [PUT]
+  Parameters: {"id"=>"1"}
+Redirected to http://test.host/activities/%23%3CMocha::Mock:0x1033c0420%3E
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/activities/1]
+
+
+Processing ActivitiesController#update (for 0.0.0.0 at 2010-02-26 09:49:39) [PUT]
+  Parameters: {"id"=>"1"}
+Redirected to http://test.host/activities/%23%3CMocha::Mock:0x1033aa5d0%3E
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/activities/1]
+
+
+Processing ActivitiesController#create (for 0.0.0.0 at 2010-02-26 09:49:39) [POST]
+  Parameters: {"activity"=>{"these"=>"params"}}
+Rendering template within layouts/application
+Rendering activities/new
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/activities?activity%5Bthese%5D=params]
+
+
+Processing ActivitiesController#create (for 0.0.0.0 at 2010-02-26 09:49:39) [POST]
+  Parameters: {"activity"=>{}}
+Rendering template within layouts/application
+Rendering activities/new
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/activities?]
+
+
+Processing ActivitiesController#create (for 0.0.0.0 at 2010-02-26 09:49:39) [POST]
+  Parameters: {"activity"=>{"these"=>"params"}}
+Redirected to http://test.host/activities/%23%3CMocha::Mock:0x10334ede8%3E
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/activities?activity%5Bthese%5D=params]
+
+
+Processing ActivitiesController#create (for 0.0.0.0 at 2010-02-26 09:49:39) [POST]
+  Parameters: {"activity"=>{}}
+Redirected to http://test.host/activities/%23%3CMocha::Mock:0x103327a68%3E
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/activities?]
+
+
+Processing ActivitiesController#edit (for 0.0.0.0 at 2010-02-26 09:49:39) [GET]
+  Parameters: {"id"=>"37"}
+Rendering template within layouts/application
+Rendering activities/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/activities/37/edit]
+
+
+Processing ActivitiesController#new (for 0.0.0.0 at 2010-02-26 09:49:39) [GET]
+Rendering template within layouts/application
+Rendering activities/new
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/activities/new]
+
+
+Processing ActivitiesController#show (for 0.0.0.0 at 2010-02-26 09:49:39) [GET]
+  Parameters: {"id"=>"37"}
+Rendering template within layouts/application
+Rendering activities/show
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/activities/37]
+
+
+Processing ActivitiesController#index (for 0.0.0.0 at 2010-02-26 09:49:39) [GET]
+Rendering template within layouts/application
+Rendering activities/index
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/activities]
+
+
+Processing ActivitiesController#index (for 0.0.0.0 at 2010-02-26 09:49:39) [GET]
+  [4;36;1mActivity Load (0.6ms)[0m   [0;1mSELECT * FROM "activities" ORDER BY position[0m
+Rendering template within layouts/application
+Rendering activities/index
+Completed in 2ms (View: 0, DB: 1) | 200 OK [http://test.host/activities]
+
+
+Processing TodaysActivitiesController#index (for 0.0.0.0 at 2010-02-26 09:49:39) [GET]
+Rendering template within layouts/application
+Rendering todays_activities/index
+Completed in 2ms (View: 0, DB: 0) | 200 OK [http://test.host/todays_activities]
+
+
+Processing TodaysActivitiesController#index (for 0.0.0.0 at 2010-02-26 09:49:39) [GET]
+  [4;35;1mActivity Load (0.6ms)[0m   [0mSELECT * FROM "activities" ORDER BY position[0m
+Rendering template within layouts/application
+Rendering todays_activities/index
+Completed in 2ms (View: 0, DB: 1) | 200 OK [http://test.host/todays_activities]
+
+
+Processing TodaysActivitiesController#index (for 0.0.0.0 at 2010-02-26 09:51:16) [GET]
+Rendering template within layouts/application
+Rendering todays_activities/index
+Completed in 2ms (View: 0, DB: 1) | 200 OK [http://test.host/todays_activities]
+
+
+Processing TodaysActivitiesController#index (for 0.0.0.0 at 2010-02-26 09:51:16) [GET]
+  [4;36;1mActivity Load (0.6ms)[0m   [0;1mSELECT * FROM "activities" ORDER BY position[0m
+Rendering template within layouts/application
+Rendering todays_activities/index
+Completed in 2ms (View: 0, DB: 1) | 200 OK [http://test.host/todays_activities]
+
+
+Processing ActivitiesController#destroy (for 0.0.0.0 at 2010-02-26 09:51:16) [DELETE]
+  Parameters: {"id"=>"37"}
+Redirected to http://test.host/activities
+Completed in 2ms (DB: 0) | 302 Found [http://test.host/activities/37]
+
+
+Processing ActivitiesController#destroy (for 0.0.0.0 at 2010-02-26 09:51:16) [DELETE]
+  Parameters: {"id"=>"1"}
+Redirected to http://test.host/activities
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/activities/1]
+
+
+Processing ActivitiesController#update (for 0.0.0.0 at 2010-02-26 09:51:16) [PUT]
+  Parameters: {"activity"=>{"these"=>"params"}, "id"=>"37"}
+Rendering template within layouts/application
+Rendering activities/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/activities/37?activity%5Bthese%5D=params]
+
+
+Processing ActivitiesController#update (for 0.0.0.0 at 2010-02-26 09:51:16) [PUT]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/application
+Rendering activities/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/activities/1]
+
+
+Processing ActivitiesController#update (for 0.0.0.0 at 2010-02-26 09:51:16) [PUT]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/application
+Rendering activities/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/activities/1]
+
+
+Processing ActivitiesController#update (for 0.0.0.0 at 2010-02-26 09:51:16) [PUT]
+  Parameters: {"activity"=>{"these"=>"params"}, "id"=>"37"}
+Rendering template within layouts/application
+Rendering activities/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/activities/37?activity%5Bthese%5D=params]
+
+
+Processing ActivitiesController#update (for 0.0.0.0 at 2010-02-26 09:51:16) [PUT]
+  Parameters: {"id"=>"1"}
+Redirected to http://test.host/activities/%23%3CMocha::Mock:0x103369210%3E
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/activities/1]
+
+
+Processing ActivitiesController#update (for 0.0.0.0 at 2010-02-26 09:51:16) [PUT]
+  Parameters: {"id"=>"1"}
+Redirected to http://test.host/activities/%23%3CMocha::Mock:0x1033419b8%3E
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/activities/1]
+
+
+Processing ActivitiesController#create (for 0.0.0.0 at 2010-02-26 09:51:16) [POST]
+  Parameters: {"activity"=>{"these"=>"params"}}
+Rendering template within layouts/application
+Rendering activities/new
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/activities?activity%5Bthese%5D=params]
+
+
+Processing ActivitiesController#create (for 0.0.0.0 at 2010-02-26 09:51:16) [POST]
+  Parameters: {"activity"=>{}}
+Rendering template within layouts/application
+Rendering activities/new
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/activities?]
+
+
+Processing ActivitiesController#create (for 0.0.0.0 at 2010-02-26 09:51:16) [POST]
+  Parameters: {"activity"=>{"these"=>"params"}}
+Redirected to http://test.host/activities/%23%3CMocha::Mock:0x1032d29c8%3E
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/activities?activity%5Bthese%5D=params]
+
+
+Processing ActivitiesController#create (for 0.0.0.0 at 2010-02-26 09:51:16) [POST]
+  Parameters: {"activity"=>{}}
+Redirected to http://test.host/activities/%23%3CMocha::Mock:0x1032b7420%3E
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/activities?]
+
+
+Processing ActivitiesController#edit (for 0.0.0.0 at 2010-02-26 09:51:16) [GET]
+  Parameters: {"id"=>"37"}
+Rendering template within layouts/application
+Rendering activities/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/activities/37/edit]
+
+
+Processing ActivitiesController#new (for 0.0.0.0 at 2010-02-26 09:51:16) [GET]
+Rendering template within layouts/application
+Rendering activities/new
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/activities/new]
+
+
+Processing ActivitiesController#show (for 0.0.0.0 at 2010-02-26 09:51:16) [GET]
+  Parameters: {"id"=>"37"}
+Rendering template within layouts/application
+Rendering activities/show
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/activities/37]
+  [4;35;1mSQL (0.3ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+
+
+Processing ActivitiesController#index (for 0.0.0.0 at 2010-02-26 09:51:16) [GET]
+  [4;35;1mActivity Load (0.6ms)[0m   [0mSELECT * FROM "activities" ORDER BY position[0m
+Rendering template within layouts/application
+Rendering activities/index
+Completed in 2ms (View: 0, DB: 1) | 200 OK [http://test.host/activities]
+
+
+Processing TodaysActivitiesController#index (for 0.0.0.0 at 2010-04-06 14:16:38) [GET]
+Rendering template within layouts/application
+Rendering todays_activities/index
+Completed in 3ms (View: 1, DB: 1) | 200 OK [http://test.host/todays_activities]
+
+
+Processing TodaysActivitiesController#index (for 0.0.0.0 at 2010-04-06 14:16:38) [GET]
+  [4;36;1mActivity Load (0.6ms)[0m   [0;1mSELECT * FROM "activities" ORDER BY position[0m
+Rendering template within layouts/application
+Rendering todays_activities/index
+Completed in 2ms (View: 0, DB: 1) | 200 OK [http://test.host/todays_activities]
+
+
+Processing ActivitiesController#destroy (for 0.0.0.0 at 2010-04-06 14:16:38) [DELETE]
+  Parameters: {"id"=>"37"}
+Redirected to http://test.host/activities
+Completed in 2ms (DB: 0) | 302 Found [http://test.host/activities/37]
+
+
+Processing ActivitiesController#destroy (for 0.0.0.0 at 2010-04-06 14:16:38) [DELETE]
+  Parameters: {"id"=>"1"}
+Redirected to http://test.host/activities
+Completed in 0ms (DB: 0) | 302 Found [http://test.host/activities/1]
+
+
+Processing ActivitiesController#update (for 0.0.0.0 at 2010-04-06 14:16:38) [PUT]
+  Parameters: {"activity"=>{"these"=>"params"}, "id"=>"37"}
+Rendering template within layouts/application
+Rendering activities/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/activities/37?activity%5Bthese%5D=params]
+
+
+Processing ActivitiesController#update (for 0.0.0.0 at 2010-04-06 14:16:38) [PUT]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/application
+Rendering activities/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/activities/1]
+
+
+Processing ActivitiesController#update (for 0.0.0.0 at 2010-04-06 14:16:38) [PUT]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/application
+Rendering activities/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/activities/1]
+
+
+Processing ActivitiesController#update (for 0.0.0.0 at 2010-04-06 14:16:38) [PUT]
+  Parameters: {"activity"=>{"these"=>"params"}, "id"=>"37"}
+Rendering template within layouts/application
+Rendering activities/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/activities/37?activity%5Bthese%5D=params]
+
+
+Processing ActivitiesController#update (for 0.0.0.0 at 2010-04-06 14:16:38) [PUT]
+  Parameters: {"id"=>"1"}
+Redirected to http://test.host/activities/%23%3CMocha::Mock:0x103595750%3E
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/activities/1]
+
+
+Processing ActivitiesController#update (for 0.0.0.0 at 2010-04-06 14:16:38) [PUT]
+  Parameters: {"id"=>"1"}
+Redirected to http://test.host/activities/%23%3CMocha::Mock:0x10357dad8%3E
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/activities/1]
+
+
+Processing ActivitiesController#create (for 0.0.0.0 at 2010-04-06 14:16:38) [POST]
+  Parameters: {"activity"=>{"these"=>"params"}}
+Rendering template within layouts/application
+Rendering activities/new
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/activities?activity%5Bthese%5D=params]
+
+
+Processing ActivitiesController#create (for 0.0.0.0 at 2010-04-06 14:16:38) [POST]
+  Parameters: {"activity"=>{}}
+Rendering template within layouts/application
+Rendering activities/new
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/activities?]
+
+
+Processing ActivitiesController#create (for 0.0.0.0 at 2010-04-06 14:16:38) [POST]
+  Parameters: {"activity"=>{"these"=>"params"}}
+Redirected to http://test.host/activities/%23%3CMocha::Mock:0x10353bf98%3E
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/activities?activity%5Bthese%5D=params]
+
+
+Processing ActivitiesController#create (for 0.0.0.0 at 2010-04-06 14:16:38) [POST]
+  Parameters: {"activity"=>{}}
+Redirected to http://test.host/activities/%23%3CMocha::Mock:0x1035254a0%3E
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/activities?]
+
+
+Processing ActivitiesController#edit (for 0.0.0.0 at 2010-04-06 14:16:38) [GET]
+  Parameters: {"id"=>"37"}
+Rendering template within layouts/application
+Rendering activities/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/activities/37/edit]
+
+
+Processing ActivitiesController#new (for 0.0.0.0 at 2010-04-06 14:16:38) [GET]
+Rendering template within layouts/application
+Rendering activities/new
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/activities/new]
+
+
+Processing ActivitiesController#show (for 0.0.0.0 at 2010-04-06 14:16:38) [GET]
+  Parameters: {"id"=>"37"}
+Rendering template within layouts/application
+Rendering activities/show
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/activities/37]
+  [4;35;1mSQL (0.3ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+
+
+Processing ActivitiesController#index (for 0.0.0.0 at 2010-04-06 14:16:38) [GET]
+  [4;35;1mActivity Load (0.6ms)[0m   [0mSELECT * FROM "activities" ORDER BY position[0m
+Rendering template within layouts/application
+Rendering activities/index
+Completed in 2ms (View: 0, DB: 1) | 200 OK [http://test.host/activities]
+
+
+Processing TodaysActivitiesController#index (for 0.0.0.0 at 2010-04-06 14:18:37) [GET]
+Rendering template within layouts/application
+Rendering todays_activities/index
+Completed in 2ms (View: 0, DB: 1) | 200 OK [http://test.host/todays_activities]
+
+
+Processing TodaysActivitiesController#index (for 0.0.0.0 at 2010-04-06 14:18:37) [GET]
+  [4;36;1mActivity Load (0.6ms)[0m   [0;1mSELECT * FROM "activities" ORDER BY position[0m
+Rendering template within layouts/application
+Rendering todays_activities/index
+Completed in 2ms (View: 0, DB: 1) | 200 OK [http://test.host/todays_activities]
+
+
+Processing ActivitiesController#destroy (for 0.0.0.0 at 2010-04-06 14:18:37) [DELETE]
+  Parameters: {"id"=>"37"}
+Redirected to http://test.host/activities
+Completed in 2ms (DB: 0) | 302 Found [http://test.host/activities/37]
+
+
+Processing ActivitiesController#destroy (for 0.0.0.0 at 2010-04-06 14:18:37) [DELETE]
+  Parameters: {"id"=>"1"}
+Redirected to http://test.host/activities
+Completed in 0ms (DB: 0) | 302 Found [http://test.host/activities/1]
+
+
+Processing ActivitiesController#update (for 0.0.0.0 at 2010-04-06 14:18:37) [PUT]
+  Parameters: {"activity"=>{"these"=>"params"}, "id"=>"37"}
+Rendering template within layouts/application
+Rendering activities/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/activities/37?activity%5Bthese%5D=params]
+
+
+Processing ActivitiesController#update (for 0.0.0.0 at 2010-04-06 14:18:37) [PUT]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/application
+Rendering activities/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/activities/1]
+
+
+Processing ActivitiesController#update (for 0.0.0.0 at 2010-04-06 14:18:37) [PUT]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/application
+Rendering activities/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/activities/1]
+
+
+Processing ActivitiesController#update (for 0.0.0.0 at 2010-04-06 14:18:37) [PUT]
+  Parameters: {"activity"=>{"these"=>"params"}, "id"=>"37"}
+Rendering template within layouts/application
+Rendering activities/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/activities/37?activity%5Bthese%5D=params]
+
+
+Processing ActivitiesController#update (for 0.0.0.0 at 2010-04-06 14:18:37) [PUT]
+  Parameters: {"id"=>"1"}
+Redirected to http://test.host/activities/%23%3CMocha::Mock:0x103595750%3E
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/activities/1]
+
+
+Processing ActivitiesController#update (for 0.0.0.0 at 2010-04-06 14:18:37) [PUT]
+  Parameters: {"id"=>"1"}
+Redirected to http://test.host/activities/%23%3CMocha::Mock:0x10357dad8%3E
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/activities/1]
+
+
+Processing ActivitiesController#create (for 0.0.0.0 at 2010-04-06 14:18:37) [POST]
+  Parameters: {"activity"=>{"these"=>"params"}}
+Rendering template within layouts/application
+Rendering activities/new
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/activities?activity%5Bthese%5D=params]
+
+
+Processing ActivitiesController#create (for 0.0.0.0 at 2010-04-06 14:18:37) [POST]
+  Parameters: {"activity"=>{}}
+Rendering template within layouts/application
+Rendering activities/new
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/activities?]
+
+
+Processing ActivitiesController#create (for 0.0.0.0 at 2010-04-06 14:18:37) [POST]
+  Parameters: {"activity"=>{"these"=>"params"}}
+Redirected to http://test.host/activities/%23%3CMocha::Mock:0x10353bf98%3E
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/activities?activity%5Bthese%5D=params]
+
+
+Processing ActivitiesController#create (for 0.0.0.0 at 2010-04-06 14:18:37) [POST]
+  Parameters: {"activity"=>{}}
+Redirected to http://test.host/activities/%23%3CMocha::Mock:0x1035254a0%3E
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/activities?]
+
+
+Processing ActivitiesController#edit (for 0.0.0.0 at 2010-04-06 14:18:37) [GET]
+  Parameters: {"id"=>"37"}
+Rendering template within layouts/application
+Rendering activities/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/activities/37/edit]
+
+
+Processing ActivitiesController#new (for 0.0.0.0 at 2010-04-06 14:18:37) [GET]
+Rendering template within layouts/application
+Rendering activities/new
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/activities/new]
+
+
+Processing ActivitiesController#show (for 0.0.0.0 at 2010-04-06 14:18:37) [GET]
+  Parameters: {"id"=>"37"}
+Rendering template within layouts/application
+Rendering activities/show
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/activities/37]
+  [4;35;1mSQL (0.3ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+
+
+Processing ActivitiesController#index (for 0.0.0.0 at 2010-04-06 14:18:37) [GET]
+  [4;35;1mActivity Load (0.6ms)[0m   [0mSELECT * FROM "activities" ORDER BY position[0m
+Rendering template within layouts/application
+Rendering activities/index
+Completed in 2ms (View: 0, DB: 1) | 200 OK [http://test.host/activities]
+
+
+Processing TodaysActivitiesController#index (for 0.0.0.0 at 2010-04-06 14:21:18) [GET]
+Rendering template within layouts/application
+Rendering todays_activities/index
+Completed in 2ms (View: 0, DB: 1) | 200 OK [http://test.host/todays_activities]
+
+
+Processing TodaysActivitiesController#index (for 0.0.0.0 at 2010-04-06 14:21:18) [GET]
+  [4;36;1mActivity Load (0.6ms)[0m   [0;1mSELECT * FROM "activities" ORDER BY position[0m
+Rendering template within layouts/application
+Rendering todays_activities/index
+Completed in 2ms (View: 0, DB: 1) | 200 OK [http://test.host/todays_activities]
+
+
+Processing ActivitiesController#destroy (for 0.0.0.0 at 2010-04-06 14:21:18) [DELETE]
+  Parameters: {"id"=>"37"}
+Redirected to http://test.host/activities
+Completed in 2ms (DB: 0) | 302 Found [http://test.host/activities/37]
+
+
+Processing ActivitiesController#destroy (for 0.0.0.0 at 2010-04-06 14:21:18) [DELETE]
+  Parameters: {"id"=>"1"}
+Redirected to http://test.host/activities
+Completed in 0ms (DB: 0) | 302 Found [http://test.host/activities/1]
+
+
+Processing ActivitiesController#update (for 0.0.0.0 at 2010-04-06 14:21:18) [PUT]
+  Parameters: {"activity"=>{"these"=>"params"}, "id"=>"37"}
+Rendering template within layouts/application
+Rendering activities/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/activities/37?activity%5Bthese%5D=params]
+
+
+Processing ActivitiesController#update (for 0.0.0.0 at 2010-04-06 14:21:18) [PUT]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/application
+Rendering activities/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/activities/1]
+
+
+Processing ActivitiesController#update (for 0.0.0.0 at 2010-04-06 14:21:18) [PUT]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/application
+Rendering activities/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/activities/1]
+
+
+Processing ActivitiesController#update (for 0.0.0.0 at 2010-04-06 14:21:18) [PUT]
+  Parameters: {"activity"=>{"these"=>"params"}, "id"=>"37"}
+Rendering template within layouts/application
+Rendering activities/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/activities/37?activity%5Bthese%5D=params]
+
+
+Processing ActivitiesController#update (for 0.0.0.0 at 2010-04-06 14:21:18) [PUT]
+  Parameters: {"id"=>"1"}
+Redirected to http://test.host/activities/%23%3CMocha::Mock:0x103595688%3E
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/activities/1]
+
+
+Processing ActivitiesController#update (for 0.0.0.0 at 2010-04-06 14:21:18) [PUT]
+  Parameters: {"id"=>"1"}
+Redirected to http://test.host/activities/%23%3CMocha::Mock:0x10357da10%3E
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/activities/1]
+
+
+Processing ActivitiesController#create (for 0.0.0.0 at 2010-04-06 14:21:18) [POST]
+  Parameters: {"activity"=>{"these"=>"params"}}
+Rendering template within layouts/application
+Rendering activities/new
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/activities?activity%5Bthese%5D=params]
+
+
+Processing ActivitiesController#create (for 0.0.0.0 at 2010-04-06 14:21:18) [POST]
+  Parameters: {"activity"=>{}}
+Rendering template within layouts/application
+Rendering activities/new
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/activities?]
+
+
+Processing ActivitiesController#create (for 0.0.0.0 at 2010-04-06 14:21:18) [POST]
+  Parameters: {"activity"=>{"these"=>"params"}}
+Redirected to http://test.host/activities/%23%3CMocha::Mock:0x10353bed0%3E
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/activities?activity%5Bthese%5D=params]
+
+
+Processing ActivitiesController#create (for 0.0.0.0 at 2010-04-06 14:21:18) [POST]
+  Parameters: {"activity"=>{}}
+Redirected to http://test.host/activities/%23%3CMocha::Mock:0x1035253d8%3E
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/activities?]
+
+
+Processing ActivitiesController#edit (for 0.0.0.0 at 2010-04-06 14:21:18) [GET]
+  Parameters: {"id"=>"37"}
+Rendering template within layouts/application
+Rendering activities/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/activities/37/edit]
+
+
+Processing ActivitiesController#new (for 0.0.0.0 at 2010-04-06 14:21:18) [GET]
+Rendering template within layouts/application
+Rendering activities/new
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/activities/new]
+
+
+Processing ActivitiesController#show (for 0.0.0.0 at 2010-04-06 14:21:18) [GET]
+  Parameters: {"id"=>"37"}
+Rendering template within layouts/application
+Rendering activities/show
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/activities/37]
+
+
+Processing ActivitiesController#index (for 0.0.0.0 at 2010-04-06 14:21:18) [GET]
+Rendering template within layouts/application
+Rendering activities/index
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/activities]
+
+
+Processing ActivitiesController#index (for 0.0.0.0 at 2010-04-06 14:21:18) [GET]
+  [4;35;1mActivity Load (0.6ms)[0m   [0mSELECT * FROM "activities" ORDER BY position[0m
+Rendering template within layouts/application
+Rendering activities/index
+Completed in 2ms (View: 0, DB: 1) | 200 OK [http://test.host/activities]
+
+
+Processing TodaysActivitiesController#index (for 0.0.0.0 at 2010-04-08 14:07:01) [GET]
+Rendering template within layouts/application
+Rendering todays_activities/index
+Completed in 2ms (View: 0, DB: 1) | 200 OK [http://test.host/todays_activities]
+
+
+Processing TodaysActivitiesController#index (for 0.0.0.0 at 2010-04-08 14:07:01) [GET]
+  [4;36;1mActivity Load (0.6ms)[0m   [0;1mSELECT * FROM "activities" ORDER BY position[0m
+Rendering template within layouts/application
+Rendering todays_activities/index
+Completed in 2ms (View: 0, DB: 1) | 200 OK [http://test.host/todays_activities]
+
+
+Processing ActivitiesController#destroy (for 0.0.0.0 at 2010-04-08 14:07:01) [DELETE]
+  Parameters: {"id"=>"37"}
+Redirected to http://test.host/activities
+Completed in 2ms (DB: 0) | 302 Found [http://test.host/activities/37]
+
+
+Processing ActivitiesController#destroy (for 0.0.0.0 at 2010-04-08 14:07:01) [DELETE]
+  Parameters: {"id"=>"1"}
+Redirected to http://test.host/activities
+Completed in 0ms (DB: 0) | 302 Found [http://test.host/activities/1]
+
+
+Processing ActivitiesController#update (for 0.0.0.0 at 2010-04-08 14:07:01) [PUT]
+  Parameters: {"activity"=>{"these"=>"params"}, "id"=>"37"}
+Rendering template within layouts/application
+Rendering activities/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/activities/37?activity%5Bthese%5D=params]
+
+
+Processing ActivitiesController#update (for 0.0.0.0 at 2010-04-08 14:07:01) [PUT]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/application
+Rendering activities/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/activities/1]
+
+
+Processing ActivitiesController#update (for 0.0.0.0 at 2010-04-08 14:07:01) [PUT]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/application
+Rendering activities/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/activities/1]
+
+
+Processing ActivitiesController#update (for 0.0.0.0 at 2010-04-08 14:07:01) [PUT]
+  Parameters: {"activity"=>{"these"=>"params"}, "id"=>"37"}
+Rendering template within layouts/application
+Rendering activities/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/activities/37?activity%5Bthese%5D=params]
+
+
+Processing ActivitiesController#update (for 0.0.0.0 at 2010-04-08 14:07:01) [PUT]
+  Parameters: {"id"=>"1"}
+Redirected to http://test.host/activities/%23%3CMocha::Mock:0x103595688%3E
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/activities/1]
+
+
+Processing ActivitiesController#update (for 0.0.0.0 at 2010-04-08 14:07:01) [PUT]
+  Parameters: {"id"=>"1"}
+Redirected to http://test.host/activities/%23%3CMocha::Mock:0x10357da10%3E
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/activities/1]
+
+
+Processing ActivitiesController#create (for 0.0.0.0 at 2010-04-08 14:07:01) [POST]
+  Parameters: {"activity"=>{"these"=>"params"}}
+Rendering template within layouts/application
+Rendering activities/new
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/activities?activity%5Bthese%5D=params]
+
+
+Processing ActivitiesController#create (for 0.0.0.0 at 2010-04-08 14:07:01) [POST]
+  Parameters: {"activity"=>{}}
+Rendering template within layouts/application
+Rendering activities/new
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/activities?]
+
+
+Processing ActivitiesController#create (for 0.0.0.0 at 2010-04-08 14:07:01) [POST]
+  Parameters: {"activity"=>{"these"=>"params"}}
+Redirected to http://test.host/activities/%23%3CMocha::Mock:0x10353bed0%3E
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/activities?activity%5Bthese%5D=params]
+
+
+Processing ActivitiesController#create (for 0.0.0.0 at 2010-04-08 14:07:01) [POST]
+  Parameters: {"activity"=>{}}
+Redirected to http://test.host/activities/%23%3CMocha::Mock:0x1035253d8%3E
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/activities?]
+
+
+Processing ActivitiesController#edit (for 0.0.0.0 at 2010-04-08 14:07:01) [GET]
+  Parameters: {"id"=>"37"}
+Rendering template within layouts/application
+Rendering activities/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/activities/37/edit]
+
+
+Processing ActivitiesController#new (for 0.0.0.0 at 2010-04-08 14:07:01) [GET]
+Rendering template within layouts/application
+Rendering activities/new
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/activities/new]
+
+
+Processing ActivitiesController#show (for 0.0.0.0 at 2010-04-08 14:07:01) [GET]
+  Parameters: {"id"=>"37"}
+Rendering template within layouts/application
+Rendering activities/show
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/activities/37]
+
+
+Processing ActivitiesController#index (for 0.0.0.0 at 2010-04-08 14:07:01) [GET]
+Rendering template within layouts/application
+Rendering activities/index
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/activities]
+
+
+Processing ActivitiesController#index (for 0.0.0.0 at 2010-04-08 14:07:01) [GET]
+  [4;35;1mActivity Load (0.6ms)[0m   [0mSELECT * FROM "activities" ORDER BY position[0m
+Rendering template within layouts/application
+Rendering activities/index
+Completed in 2ms (View: 0, DB: 1) | 200 OK [http://test.host/activities]
+
+
+Processing TodaysActivitiesController#index (for 0.0.0.0 at 2010-04-11 12:24:05) [GET]
+Rendering template within layouts/application
+Rendering todays_activities/index
+Completed in 2ms (View: 0, DB: 1) | 200 OK [http://test.host/todays_activities]
+
+
+Processing TodaysActivitiesController#index (for 0.0.0.0 at 2010-04-11 12:24:05) [GET]
+  [4;36;1mActivity Load (0.6ms)[0m   [0;1mSELECT * FROM "activities" ORDER BY position[0m
+Rendering template within layouts/application
+Rendering todays_activities/index
+Completed in 2ms (View: 0, DB: 1) | 200 OK [http://test.host/todays_activities]
+
+
+Processing ActivitiesController#destroy (for 0.0.0.0 at 2010-04-11 12:24:05) [DELETE]
+  Parameters: {"id"=>"37"}
+Redirected to http://test.host/activities
+Completed in 2ms (DB: 0) | 302 Found [http://test.host/activities/37]
+
+
+Processing ActivitiesController#destroy (for 0.0.0.0 at 2010-04-11 12:24:05) [DELETE]
+  Parameters: {"id"=>"1"}
+Redirected to http://test.host/activities
+Completed in 0ms (DB: 0) | 302 Found [http://test.host/activities/1]
+
+
+Processing ActivitiesController#update (for 0.0.0.0 at 2010-04-11 12:24:05) [PUT]
+  Parameters: {"activity"=>{"these"=>"params"}, "id"=>"37"}
+Rendering template within layouts/application
+Rendering activities/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/activities/37?activity%5Bthese%5D=params]
+
+
+Processing ActivitiesController#update (for 0.0.0.0 at 2010-04-11 12:24:05) [PUT]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/application
+Rendering activities/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/activities/1]
+
+
+Processing ActivitiesController#update (for 0.0.0.0 at 2010-04-11 12:24:05) [PUT]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/application
+Rendering activities/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/activities/1]
+
+
+Processing ActivitiesController#update (for 0.0.0.0 at 2010-04-11 12:24:05) [PUT]
+  Parameters: {"activity"=>{"these"=>"params"}, "id"=>"37"}
+Rendering template within layouts/application
+Rendering activities/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/activities/37?activity%5Bthese%5D=params]
+
+
+Processing ActivitiesController#update (for 0.0.0.0 at 2010-04-11 12:24:05) [PUT]
+  Parameters: {"id"=>"1"}
+Redirected to http://test.host/activities/%23%3CMocha::Mock:0x103595688%3E
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/activities/1]
+
+
+Processing ActivitiesController#update (for 0.0.0.0 at 2010-04-11 12:24:05) [PUT]
+  Parameters: {"id"=>"1"}
+Redirected to http://test.host/activities/%23%3CMocha::Mock:0x10357da10%3E
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/activities/1]
+
+
+Processing ActivitiesController#create (for 0.0.0.0 at 2010-04-11 12:24:05) [POST]
+  Parameters: {"activity"=>{"these"=>"params"}}
+Rendering template within layouts/application
+Rendering activities/new
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/activities?activity%5Bthese%5D=params]
+
+
+Processing ActivitiesController#create (for 0.0.0.0 at 2010-04-11 12:24:05) [POST]
+  Parameters: {"activity"=>{}}
+Rendering template within layouts/application
+Rendering activities/new
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/activities?]
+
+
+Processing ActivitiesController#create (for 0.0.0.0 at 2010-04-11 12:24:05) [POST]
+  Parameters: {"activity"=>{"these"=>"params"}}
+Redirected to http://test.host/activities/%23%3CMocha::Mock:0x10353bed0%3E
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/activities?activity%5Bthese%5D=params]
+
+
+Processing ActivitiesController#create (for 0.0.0.0 at 2010-04-11 12:24:05) [POST]
+  Parameters: {"activity"=>{}}
+Redirected to http://test.host/activities/%23%3CMocha::Mock:0x1035253d8%3E
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/activities?]
+
+
+Processing ActivitiesController#edit (for 0.0.0.0 at 2010-04-11 12:24:05) [GET]
+  Parameters: {"id"=>"37"}
+Rendering template within layouts/application
+Rendering activities/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/activities/37/edit]
+
+
+Processing ActivitiesController#new (for 0.0.0.0 at 2010-04-11 12:24:05) [GET]
+Rendering template within layouts/application
+Rendering activities/new
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/activities/new]
+
+
+Processing ActivitiesController#show (for 0.0.0.0 at 2010-04-11 12:24:05) [GET]
+  Parameters: {"id"=>"37"}
+Rendering template within layouts/application
+Rendering activities/show
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/activities/37]
+
+
+Processing ActivitiesController#index (for 0.0.0.0 at 2010-04-11 12:24:05) [GET]
+Rendering template within layouts/application
+Rendering activities/index
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/activities]
+
+
+Processing ActivitiesController#index (for 0.0.0.0 at 2010-04-11 12:24:05) [GET]
+  [4;35;1mActivity Load (0.6ms)[0m   [0mSELECT * FROM "activities" ORDER BY position[0m
+Rendering template within layouts/application
+Rendering activities/index
+Completed in 2ms (View: 0, DB: 1) | 200 OK [http://test.host/activities]
+
+
+Processing TodaysActivitiesController#index (for 0.0.0.0 at 2010-04-11 12:32:58) [GET]
+Rendering template within layouts/application
+Rendering todays_activities/index
+Completed in 2ms (View: 0, DB: 1) | 200 OK [http://test.host/todays_activities]
+
+
+Processing TodaysActivitiesController#index (for 0.0.0.0 at 2010-04-11 12:32:58) [GET]
+  [4;36;1mActivity Load (0.6ms)[0m   [0;1mSELECT * FROM "activities" ORDER BY position[0m
+Rendering template within layouts/application
+Rendering todays_activities/index
+Completed in 2ms (View: 0, DB: 1) | 200 OK [http://test.host/todays_activities]
+
+
+Processing ActivitiesController#destroy (for 0.0.0.0 at 2010-04-11 12:32:58) [DELETE]
+  Parameters: {"id"=>"37"}
+Redirected to http://test.host/activities
+Completed in 2ms (DB: 0) | 302 Found [http://test.host/activities/37]
+
+
+Processing ActivitiesController#destroy (for 0.0.0.0 at 2010-04-11 12:32:58) [DELETE]
+  Parameters: {"id"=>"1"}
+Redirected to http://test.host/activities
+Completed in 0ms (DB: 0) | 302 Found [http://test.host/activities/1]
+
+
+Processing ActivitiesController#update (for 0.0.0.0 at 2010-04-11 12:32:58) [PUT]
+  Parameters: {"activity"=>{"these"=>"params"}, "id"=>"37"}
+Rendering template within layouts/application
+Rendering activities/edit
+Completed in 1ms (View: 1, DB: 0) | 200 OK [http://test.host/activities/37?activity%5Bthese%5D=params]
+
+
+Processing ActivitiesController#update (for 0.0.0.0 at 2010-04-11 12:32:58) [PUT]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/application
+Rendering activities/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/activities/1]
+
+
+Processing ActivitiesController#update (for 0.0.0.0 at 2010-04-11 12:32:58) [PUT]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/application
+Rendering activities/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/activities/1]
+
+
+Processing ActivitiesController#update (for 0.0.0.0 at 2010-04-11 12:32:58) [PUT]
+  Parameters: {"activity"=>{"these"=>"params"}, "id"=>"37"}
+Rendering template within layouts/application
+Rendering activities/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/activities/37?activity%5Bthese%5D=params]
+
+
+Processing ActivitiesController#update (for 0.0.0.0 at 2010-04-11 12:32:58) [PUT]
+  Parameters: {"id"=>"1"}
+Redirected to http://test.host/activities/%23%3CMocha::Mock:0x103595688%3E
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/activities/1]
+
+
+Processing ActivitiesController#update (for 0.0.0.0 at 2010-04-11 12:32:58) [PUT]
+  Parameters: {"id"=>"1"}
+Redirected to http://test.host/activities/%23%3CMocha::Mock:0x10357da10%3E
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/activities/1]
+
+
+Processing ActivitiesController#create (for 0.0.0.0 at 2010-04-11 12:32:58) [POST]
+  Parameters: {"activity"=>{"these"=>"params"}}
+Rendering template within layouts/application
+Rendering activities/new
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/activities?activity%5Bthese%5D=params]
+
+
+Processing ActivitiesController#create (for 0.0.0.0 at 2010-04-11 12:32:58) [POST]
+  Parameters: {"activity"=>{}}
+Rendering template within layouts/application
+Rendering activities/new
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/activities?]
+
+
+Processing ActivitiesController#create (for 0.0.0.0 at 2010-04-11 12:32:58) [POST]
+  Parameters: {"activity"=>{"these"=>"params"}}
+Redirected to http://test.host/activities/%23%3CMocha::Mock:0x10353bed0%3E
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/activities?activity%5Bthese%5D=params]
+
+
+Processing ActivitiesController#create (for 0.0.0.0 at 2010-04-11 12:32:58) [POST]
+  Parameters: {"activity"=>{}}
+Redirected to http://test.host/activities/%23%3CMocha::Mock:0x1035253d8%3E
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/activities?]
+
+
+Processing ActivitiesController#edit (for 0.0.0.0 at 2010-04-11 12:32:58) [GET]
+  Parameters: {"id"=>"37"}
+Rendering template within layouts/application
+Rendering activities/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/activities/37/edit]
+
+
+Processing ActivitiesController#new (for 0.0.0.0 at 2010-04-11 12:32:58) [GET]
+Rendering template within layouts/application
+Rendering activities/new
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/activities/new]
+
+
+Processing ActivitiesController#show (for 0.0.0.0 at 2010-04-11 12:32:58) [GET]
+  Parameters: {"id"=>"37"}
+Rendering template within layouts/application
+Rendering activities/show
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/activities/37]
+
+
+Processing ActivitiesController#index (for 0.0.0.0 at 2010-04-11 12:32:58) [GET]
+Rendering template within layouts/application
+Rendering activities/index
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/activities]
+
+
+Processing ActivitiesController#index (for 0.0.0.0 at 2010-04-11 12:32:58) [GET]
+  [4;35;1mActivity Load (0.6ms)[0m   [0mSELECT * FROM "activities" ORDER BY position[0m
+Rendering template within layouts/application
+Rendering activities/index
+Completed in 2ms (View: 0, DB: 1) | 200 OK [http://test.host/activities]
+
+
+Processing TodaysActivitiesController#index (for 0.0.0.0 at 2010-04-12 13:40:34) [GET]
+Rendering template within layouts/application
+Rendering todays_activities/index
+Completed in 2ms (View: 0, DB: 1) | 200 OK [http://test.host/todays_activities]
+
+
+Processing TodaysActivitiesController#index (for 0.0.0.0 at 2010-04-12 13:40:34) [GET]
+  [4;36;1mActivity Load (1.5ms)[0m   [0;1mSELECT * FROM "activities" ORDER BY position[0m
+Rendering template within layouts/application
+Rendering todays_activities/index
+Completed in 23ms (View: 15, DB: 2) | 200 OK [http://test.host/todays_activities]
+
+
+Processing ActivitiesController#destroy (for 0.0.0.0 at 2010-04-12 13:40:34) [DELETE]
+  Parameters: {"id"=>"37"}
+Redirected to http://test.host/activities
+Completed in 2ms (DB: 0) | 302 Found [http://test.host/activities/37]
+
+
+Processing ActivitiesController#destroy (for 0.0.0.0 at 2010-04-12 13:40:34) [DELETE]
+  Parameters: {"id"=>"1"}
+Redirected to http://test.host/activities
+Completed in 0ms (DB: 0) | 302 Found [http://test.host/activities/1]
+
+
+Processing ActivitiesController#update (for 0.0.0.0 at 2010-04-12 13:40:34) [PUT]
+  Parameters: {"activity"=>{"these"=>"params"}, "id"=>"37"}
+Rendering template within layouts/application
+Rendering activities/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/activities/37?activity%5Bthese%5D=params]
+
+
+Processing ActivitiesController#update (for 0.0.0.0 at 2010-04-12 13:40:34) [PUT]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/application
+Rendering activities/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/activities/1]
+
+
+Processing ActivitiesController#update (for 0.0.0.0 at 2010-04-12 13:40:34) [PUT]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/application
+Rendering activities/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/activities/1]
+
+
+Processing ActivitiesController#update (for 0.0.0.0 at 2010-04-12 13:40:34) [PUT]
+  Parameters: {"activity"=>{"these"=>"params"}, "id"=>"37"}
+Rendering template within layouts/application
+Rendering activities/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/activities/37?activity%5Bthese%5D=params]
+
+
+Processing ActivitiesController#update (for 0.0.0.0 at 2010-04-12 13:40:34) [PUT]
+  Parameters: {"id"=>"1"}
+Redirected to http://test.host/activities/%23%3CMocha::Mock:0x103587ad8%3E
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/activities/1]
+
+
+Processing ActivitiesController#update (for 0.0.0.0 at 2010-04-12 13:40:34) [PUT]
+  Parameters: {"id"=>"1"}
+Redirected to http://test.host/activities/%23%3CMocha::Mock:0x10356f550%3E
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/activities/1]
+
+
+Processing ActivitiesController#create (for 0.0.0.0 at 2010-04-12 13:40:34) [POST]
+  Parameters: {"activity"=>{"these"=>"params"}}
+Rendering template within layouts/application
+Rendering activities/new
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/activities?activity%5Bthese%5D=params]
+
+
+Processing ActivitiesController#create (for 0.0.0.0 at 2010-04-12 13:40:34) [POST]
+  Parameters: {"activity"=>{}}
+Rendering template within layouts/application
+Rendering activities/new
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/activities?]
+
+
+Processing ActivitiesController#create (for 0.0.0.0 at 2010-04-12 13:40:34) [POST]
+  Parameters: {"activity"=>{"these"=>"params"}}
+Redirected to http://test.host/activities/%23%3CMocha::Mock:0x10352dad8%3E
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/activities?activity%5Bthese%5D=params]
+
+
+Processing ActivitiesController#create (for 0.0.0.0 at 2010-04-12 13:40:34) [POST]
+  Parameters: {"activity"=>{}}
+Redirected to http://test.host/activities/%23%3CMocha::Mock:0x103518070%3E
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/activities?]
+
+
+Processing ActivitiesController#edit (for 0.0.0.0 at 2010-04-12 13:40:34) [GET]
+  Parameters: {"id"=>"37"}
+Rendering template within layouts/application
+Rendering activities/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/activities/37/edit]
+
+
+Processing ActivitiesController#new (for 0.0.0.0 at 2010-04-12 13:40:34) [GET]
+Rendering template within layouts/application
+Rendering activities/new
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/activities/new]
+
+
+Processing ActivitiesController#show (for 0.0.0.0 at 2010-04-12 13:40:34) [GET]
+  Parameters: {"id"=>"37"}
+Rendering template within layouts/application
+Rendering activities/show
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/activities/37]
+
+
+Processing ActivitiesController#index (for 0.0.0.0 at 2010-04-12 13:40:34) [GET]
+Rendering template within layouts/application
+Rendering activities/index
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/activities]
+
+
+Processing ActivitiesController#index (for 0.0.0.0 at 2010-04-12 13:40:34) [GET]
+  [4;35;1mActivity Load (0.6ms)[0m   [0mSELECT * FROM "activities" ORDER BY position[0m
+Rendering template within layouts/application
+Rendering activities/index
+Completed in 2ms (View: 0, DB: 1) | 200 OK [http://test.host/activities]
+
+
+Processing TodaysActivitiesController#index (for 0.0.0.0 at 2010-04-14 13:38:26) [GET]
+Rendering template within layouts/application
+Rendering todays_activities/index
+Completed in 3ms (View: 1, DB: 1) | 200 OK [http://test.host/todays_activities]
+
+
+Processing TodaysActivitiesController#index (for 0.0.0.0 at 2010-04-14 13:38:26) [GET]
+  [4;36;1mActivity Load (0.6ms)[0m   [0;1mSELECT * FROM "activities" ORDER BY position[0m
+Rendering template within layouts/application
+Rendering todays_activities/index
+Completed in 2ms (View: 0, DB: 1) | 200 OK [http://test.host/todays_activities]
+
+
+Processing ActivitiesController#destroy (for 0.0.0.0 at 2010-04-14 13:38:26) [DELETE]
+  Parameters: {"id"=>"37"}
+Redirected to http://test.host/activities
+Completed in 2ms (DB: 0) | 302 Found [http://test.host/activities/37]
+
+
+Processing ActivitiesController#destroy (for 0.0.0.0 at 2010-04-14 13:38:26) [DELETE]
+  Parameters: {"id"=>"1"}
+Redirected to http://test.host/activities
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/activities/1]
+
+
+Processing ActivitiesController#update (for 0.0.0.0 at 2010-04-14 13:38:26) [PUT]
+  Parameters: {"activity"=>{"these"=>"params"}, "id"=>"37"}
+Rendering template within layouts/application
+Rendering activities/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/activities/37?activity%5Bthese%5D=params]
+
+
+Processing ActivitiesController#update (for 0.0.0.0 at 2010-04-14 13:38:26) [PUT]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/application
+Rendering activities/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/activities/1]
+
+
+Processing ActivitiesController#update (for 0.0.0.0 at 2010-04-14 13:38:26) [PUT]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/application
+Rendering activities/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/activities/1]
+
+
+Processing ActivitiesController#update (for 0.0.0.0 at 2010-04-14 13:38:26) [PUT]
+  Parameters: {"activity"=>{"these"=>"params"}, "id"=>"37"}
+Rendering template within layouts/application
+Rendering activities/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/activities/37?activity%5Bthese%5D=params]
+
+
+Processing ActivitiesController#update (for 0.0.0.0 at 2010-04-14 13:38:26) [PUT]
+  Parameters: {"id"=>"1"}
+Redirected to http://test.host/activities/%23%3CMocha::Mock:0x103587ad8%3E
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/activities/1]
+
+
+Processing ActivitiesController#update (for 0.0.0.0 at 2010-04-14 13:38:26) [PUT]
+  Parameters: {"id"=>"1"}
+Redirected to http://test.host/activities/%23%3CMocha::Mock:0x10356f550%3E
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/activities/1]
+
+
+Processing ActivitiesController#create (for 0.0.0.0 at 2010-04-14 13:38:26) [POST]
+  Parameters: {"activity"=>{"these"=>"params"}}
+Rendering template within layouts/application
+Rendering activities/new
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/activities?activity%5Bthese%5D=params]
+
+
+Processing ActivitiesController#create (for 0.0.0.0 at 2010-04-14 13:38:26) [POST]
+  Parameters: {"activity"=>{}}
+Rendering template within layouts/application
+Rendering activities/new
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/activities?]
+
+
+Processing ActivitiesController#create (for 0.0.0.0 at 2010-04-14 13:38:26) [POST]
+  Parameters: {"activity"=>{"these"=>"params"}}
+Redirected to http://test.host/activities/%23%3CMocha::Mock:0x10352dad8%3E
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/activities?activity%5Bthese%5D=params]
+
+
+Processing ActivitiesController#create (for 0.0.0.0 at 2010-04-14 13:38:26) [POST]
+  Parameters: {"activity"=>{}}
+Redirected to http://test.host/activities/%23%3CMocha::Mock:0x103518070%3E
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/activities?]
+
+
+Processing ActivitiesController#edit (for 0.0.0.0 at 2010-04-14 13:38:26) [GET]
+  Parameters: {"id"=>"37"}
+Rendering template within layouts/application
+Rendering activities/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/activities/37/edit]
+
+
+Processing ActivitiesController#new (for 0.0.0.0 at 2010-04-14 13:38:26) [GET]
+Rendering template within layouts/application
+Rendering activities/new
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/activities/new]
+
+
+Processing ActivitiesController#show (for 0.0.0.0 at 2010-04-14 13:38:26) [GET]
+  Parameters: {"id"=>"37"}
+Rendering template within layouts/application
+Rendering activities/show
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/activities/37]
+
+
+Processing ActivitiesController#index (for 0.0.0.0 at 2010-04-14 13:38:26) [GET]
+Rendering template within layouts/application
+Rendering activities/index
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/activities]
+
+
+Processing ActivitiesController#index (for 0.0.0.0 at 2010-04-14 13:38:26) [GET]
+  [4;35;1mActivity Load (0.7ms)[0m   [0mSELECT * FROM "activities" ORDER BY position[0m
+Rendering template within layouts/application
+Rendering activities/index
+Completed in 2ms (View: 0, DB: 1) | 200 OK [http://test.host/activities]

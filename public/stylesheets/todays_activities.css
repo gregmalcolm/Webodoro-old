@@ -1,0 +1,24 @@
+div.todays_activities_head_checkbox {
+    width: 20px;
+}
+
+div.todays_activities_head_description {
+    width: 80%;
+}
+
+div.todays_activities_head_estimate {
+    width: 6em;
+}
+
+div.todays_activities_cell_checkbox {
+    vertical-align: bottom;
+    width: 20px;
+}
+
+div.todays_activities_cell_description {
+    width: 80%;
+}
+
+div.todays_activities_cell_estimate {
+    width: 6em;
+}
