@@ -110,39 +110,27 @@ div.left_float {
 }
 
 .table_1 > div > div {
+    color: black    ;
     float: left;
 
     padding: 6px;
 }
 
-.table_header_row_1 > div {
-    text-align: center;
-    font-weight: bold;
-}
-
 .table_row_1 > div{
     text-align: left;
     vertical-align: middle;
-    height: 6em;
 }
 
-.table_tl_1 {
-    border: 1px dotted;
+.table_border_top{
+    color: grey;
+    border-left: 1px solid;
+    border-right: 1px solid;
+    border-top: 1px solid;
+}
+.table_border_bottom{
+    color: grey;
+    border-bottom: 1px solid;
+    border-left: 1px solid;
+    border-right: 1px solid;
 }
 
-.table_tc_1, .table_tr_1 {
-    border-top: 1px dotted;
-    border-right: 1px dotted;
-    border-bottom: 1px dotted;
-}
-
-.table_ml_1, .table_bl_1 {
-    border-left: 1px dotted;
-    border-right: 1px dotted;
-    border-bottom: 1px dotted;
-}
-
-.table_mc_1, .table_mr_1, .table_bc_1, .table_br_1 {
-    border-right: 1px dotted;
-    border-bottom: 1px dotted;
-}

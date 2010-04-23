@@ -3,16 +3,19 @@
 
 <% form_tag('choose', :method=>'post', :multipart=>true) do %>
     <div class="table_1">
-        <div class="table_header_row_1 clearfix">
-            <div class="todays_activities_head_checkbox table_tl_1">&nbsp;</div>
-            <div class="todays_activities_head_description table_tc_1">Description</div>
-            <div class="todays_activities_head_estimate table_tr_1">Estimate</div>
-        </div>
         <% @activities.each do |activity| %>
-            <div class="table_row_1 clearfix" >
-                <div class="todays_activities_cell_checkbox table_bl_1"><%=check_box(:activity, activity.id)%></div>
-                <div class="todays_activities_cell_description table_bc_1"><%=label(:activity, activity.id, activity.description) %></div>
-                <div class="todays_activities_cell_estimate table_br_1"><%=label(:activity, activity.id, activity.estimate) %></div>
+            <div class="table_row_1 clearfix table_border_top">
+                <div class="todays_activities_cell_checkbox"><%=check_box(:activity, activity.id)%></div>
+                <div class="todays_activities_cell_description"><%=label(:activity, activity.id, activity.description) %></div>
+            </div>
+            <div class="table_row_1 clearfix table_border_bottom">
+                <div class="todays_activities_cell_checkbox table_border_1">&nbsp;</div>
+                <div class="todays_activities_cell_progress table_border_1">
+                  Progress:
+                  <%=label(:activity, activity.id, activity.actual) %>
+                  /
+                  <%=label(:activity, activity.id, activity.estimate) %>
+                </div>
             </div>
         <% end %>
         <% submit_tag 'Apply' %>

@@ -15442,3 +15442,521 @@ Processing TodaysActivitiesController#index (for 127.0.0.1 at 2010-04-20 21:48:3
 Rendering template within layouts/application
 Rendering todays_activities/index
 Completed in 42ms (View: 25, DB: 1) | 200 OK [http://localhost/todays_activities]
+
+
+Processing TodaysActivitiesController#index (for 127.0.0.1 at 2010-04-22 08:00:09) [GET]
+  [4;36;1mActivity Load (1.4ms)[0m   [0;1mSELECT * FROM "activities" ORDER BY position[0m
+Rendering template within layouts/application
+Rendering todays_activities/index
+Completed in 163ms (View: 89, DB: 1) | 200 OK [http://localhost/todays_activities]
+
+
+Processing TodaysActivitiesController#index (for 127.0.0.1 at 2010-04-22 08:35:27) [GET]
+  [4;35;1mActivity Load (0.9ms)[0m   [0mSELECT * FROM "activities" ORDER BY position[0m
+Rendering template within layouts/application
+Rendering todays_activities/index
+Completed in 19ms (View: 14, DB: 1) | 200 OK [http://localhost/todays_activities]
+
+
+Processing TodaysActivitiesController#index (for 127.0.0.1 at 2010-04-22 08:37:04) [GET]
+  [4;36;1mActivity Load (1.0ms)[0m   [0;1mSELECT * FROM "activities" ORDER BY position[0m
+Rendering template within layouts/application
+Rendering todays_activities/index
+Completed in 21ms (View: 15, DB: 1) | 200 OK [http://localhost/todays_activities]
+
+
+Processing TodaysActivitiesController#index (for 127.0.0.1 at 2010-04-22 08:37:25) [GET]
+  [4;35;1mActivity Load (1.1ms)[0m   [0mSELECT * FROM "activities" ORDER BY position[0m
+Rendering template within layouts/application
+Rendering todays_activities/index
+Completed in 18ms (View: 10, DB: 1) | 200 OK [http://localhost/todays_activities]
+
+
+Processing TodaysActivitiesController#index (for 127.0.0.1 at 2010-04-22 08:38:06) [GET]
+  [4;36;1mActivity Load (0.9ms)[0m   [0;1mSELECT * FROM "activities" ORDER BY position[0m
+Rendering template within layouts/application
+Rendering todays_activities/index
+Completed in 18ms (View: 13, DB: 1) | 200 OK [http://localhost/todays_activities]
+
+
+Processing TodaysActivitiesController#index (for 127.0.0.1 at 2010-04-22 08:39:38) [GET]
+  [4;35;1mActivity Load (7.3ms)[0m   [0mSELECT * FROM "activities" ORDER BY position[0m
+Rendering template within layouts/application
+Rendering todays_activities/index
+Completed in 29ms (View: 17, DB: 7) | 200 OK [http://localhost/todays_activities]
+
+
+Processing TodaysActivitiesController#index (for 127.0.0.1 at 2010-04-22 08:39:51) [GET]
+  [4;36;1mActivity Load (1.0ms)[0m   [0;1mSELECT * FROM "activities" ORDER BY position[0m
+Rendering template within layouts/application
+Rendering todays_activities/index
+Completed in 19ms (View: 13, DB: 1) | 200 OK [http://localhost/todays_activities]
+
+
+Processing TodaysActivitiesController#index (for 127.0.0.1 at 2010-04-22 08:40:34) [GET]
+  [4;35;1mActivity Load (0.9ms)[0m   [0mSELECT * FROM "activities" ORDER BY position[0m
+Rendering template within layouts/application
+Rendering todays_activities/index
+Completed in 19ms (View: 14, DB: 1) | 200 OK [http://localhost/todays_activities]
+
+
+Processing TodaysActivitiesController#index (for 127.0.0.1 at 2010-04-22 08:41:37) [GET]
+  [4;36;1mActivity Load (0.9ms)[0m   [0;1mSELECT * FROM "activities" ORDER BY position[0m
+Rendering template within layouts/application
+Rendering todays_activities/index
+Completed in 20ms (View: 15, DB: 1) | 200 OK [http://localhost/todays_activities]
+
+
+Processing TodaysActivitiesController#index (for 127.0.0.1 at 2010-04-22 08:41:46) [GET]
+  [4;35;1mActivity Load (0.9ms)[0m   [0mSELECT * FROM "activities" ORDER BY position[0m
+Rendering template within layouts/application
+Rendering todays_activities/index
+Completed in 17ms (View: 10, DB: 1) | 200 OK [http://localhost/todays_activities]
+
+
+Processing TodaysActivitiesController#index (for 127.0.0.1 at 2010-04-22 08:41:51) [GET]
+  [4;36;1mActivity Load (1.0ms)[0m   [0;1mSELECT * FROM "activities" ORDER BY position[0m
+Rendering template within layouts/application
+Rendering todays_activities/index
+Completed in 16ms (View: 10, DB: 1) | 200 OK [http://localhost/todays_activities]
+
+
+Processing TodaysActivitiesController#index (for 127.0.0.1 at 2010-04-22 08:41:58) [GET]
+  [4;35;1mActivity Load (0.9ms)[0m   [0mSELECT * FROM "activities" ORDER BY position[0m
+Rendering template within layouts/application
+Rendering todays_activities/index
+Completed in 36ms (View: 31, DB: 1) | 200 OK [http://localhost/todays_activities]
+
+
+Processing TodaysActivitiesController#index (for 127.0.0.1 at 2010-04-22 08:42:59) [GET]
+  [4;36;1mActivity Load (0.9ms)[0m   [0;1mSELECT * FROM "activities" ORDER BY position[0m
+Rendering template within layouts/application
+Rendering todays_activities/index
+Completed in 16ms (View: 11, DB: 1) | 200 OK [http://localhost/todays_activities]
+
+
+Processing TodaysActivitiesController#index (for 127.0.0.1 at 2010-04-22 08:43:34) [GET]
+  [4;35;1mActivity Load (1.0ms)[0m   [0mSELECT * FROM "activities" ORDER BY position[0m
+Rendering template within layouts/application
+Rendering todays_activities/index
+Completed in 130ms (View: 124, DB: 1) | 200 OK [http://localhost/todays_activities]
+
+
+Processing TodaysActivitiesController#index (for 127.0.0.1 at 2010-04-22 08:43:44) [GET]
+  [4;36;1mActivity Load (1.0ms)[0m   [0;1mSELECT * FROM "activities" ORDER BY position[0m
+Rendering template within layouts/application
+Rendering todays_activities/index
+Completed in 14ms (View: 9, DB: 1) | 200 OK [http://localhost/todays_activities]
+
+
+Processing TodaysActivitiesController#index (for 127.0.0.1 at 2010-04-22 08:44:19) [GET]
+  [4;35;1mActivity Load (0.9ms)[0m   [0mSELECT * FROM "activities" ORDER BY position[0m
+Rendering template within layouts/application
+Rendering todays_activities/index
+Completed in 21ms (View: 15, DB: 1) | 200 OK [http://localhost/todays_activities]
+
+
+Processing TodaysActivitiesController#index (for 127.0.0.1 at 2010-04-22 08:45:20) [GET]
+  [4;36;1mActivity Load (0.9ms)[0m   [0;1mSELECT * FROM "activities" ORDER BY position[0m
+Rendering template within layouts/application
+Rendering todays_activities/index
+Completed in 14ms (View: 9, DB: 1) | 200 OK [http://localhost/todays_activities]
+
+
+Processing TodaysActivitiesController#index (for 127.0.0.1 at 2010-04-22 08:45:38) [GET]
+  [4;35;1mActivity Load (2.5ms)[0m   [0mSELECT * FROM "activities" ORDER BY position[0m
+Rendering template within layouts/application
+Rendering todays_activities/index
+Completed in 42ms (View: 35, DB: 3) | 200 OK [http://localhost/todays_activities]
+
+
+Processing TodaysActivitiesController#index (for 127.0.0.1 at 2010-04-22 08:45:45) [GET]
+  [4;36;1mActivity Load (0.9ms)[0m   [0;1mSELECT * FROM "activities" ORDER BY position[0m
+Rendering template within layouts/application
+Rendering todays_activities/index
+Completed in 14ms (View: 9, DB: 1) | 200 OK [http://localhost/todays_activities]
+
+
+Processing TodaysActivitiesController#index (for 127.0.0.1 at 2010-04-22 08:46:06) [GET]
+  [4;35;1mActivity Load (0.9ms)[0m   [0mSELECT * FROM "activities" ORDER BY position[0m
+Rendering template within layouts/application
+Rendering todays_activities/index
+Completed in 90ms (View: 9, DB: 1) | 200 OK [http://localhost/todays_activities]
+
+
+Processing TodaysActivitiesController#index (for 127.0.0.1 at 2010-04-22 08:46:13) [GET]
+  [4;36;1mActivity Load (1.8ms)[0m   [0;1mSELECT * FROM "activities" ORDER BY position[0m
+Rendering template within layouts/application
+Rendering todays_activities/index
+Completed in 17ms (View: 10, DB: 2) | 200 OK [http://localhost/todays_activities]
+
+
+Processing TodaysActivitiesController#index (for 127.0.0.1 at 2010-04-22 08:46:20) [GET]
+  [4;35;1mActivity Load (1.0ms)[0m   [0mSELECT * FROM "activities" ORDER BY position[0m
+Rendering template within layouts/application
+Rendering todays_activities/index
+Completed in 16ms (View: 9, DB: 1) | 200 OK [http://localhost/todays_activities]
+
+
+Processing TodaysActivitiesController#index (for 127.0.0.1 at 2010-04-22 08:46:25) [GET]
+  [4;36;1mActivity Load (5.4ms)[0m   [0;1mSELECT * FROM "activities" ORDER BY position[0m
+Rendering template within layouts/application
+Rendering todays_activities/index
+Completed in 21ms (View: 10, DB: 5) | 200 OK [http://localhost/todays_activities]
+
+
+Processing TodaysActivitiesController#index (for 127.0.0.1 at 2010-04-22 08:47:44) [GET]
+  [4;35;1mActivity Load (0.9ms)[0m   [0mSELECT * FROM "activities" ORDER BY position[0m
+Rendering template within layouts/application
+Rendering todays_activities/index
+Completed in 13ms (View: 9, DB: 1) | 200 OK [http://localhost/todays_activities]
+
+
+Processing TodaysActivitiesController#index (for 127.0.0.1 at 2010-04-22 08:47:46) [GET]
+  [4;36;1mActivity Load (0.9ms)[0m   [0;1mSELECT * FROM "activities" ORDER BY position[0m
+Rendering template within layouts/application
+Rendering todays_activities/index
+Completed in 13ms (View: 9, DB: 1) | 200 OK [http://localhost/todays_activities]
+
+
+Processing TodaysActivitiesController#index (for 127.0.0.1 at 2010-04-22 08:47:56) [GET]
+  [4;35;1mActivity Load (1.1ms)[0m   [0mSELECT * FROM "activities" ORDER BY position[0m
+Rendering template within layouts/application
+Rendering todays_activities/index
+Completed in 102ms (View: 97, DB: 1) | 200 OK [http://localhost/todays_activities]
+
+
+Processing TodaysActivitiesController#index (for 127.0.0.1 at 2010-04-22 08:48:04) [GET]
+  [4;36;1mActivity Load (0.9ms)[0m   [0;1mSELECT * FROM "activities" ORDER BY position[0m
+Rendering template within layouts/application
+Rendering todays_activities/index
+Completed in 21ms (View: 9, DB: 1) | 200 OK [http://localhost/todays_activities]
+
+
+Processing TodaysActivitiesController#index (for 127.0.0.1 at 2010-04-22 08:48:37) [GET]
+  [4;35;1mActivity Load (3.0ms)[0m   [0mSELECT * FROM "activities" ORDER BY position[0m
+Rendering template within layouts/application
+Rendering todays_activities/index
+Completed in 24ms (View: 16, DB: 3) | 200 OK [http://localhost/todays_activities]
+
+
+Processing TodaysActivitiesController#index (for 127.0.0.1 at 2010-04-22 08:54:10) [GET]
+  [4;36;1mActivity Load (0.9ms)[0m   [0;1mSELECT * FROM "activities" ORDER BY position[0m
+Rendering template within layouts/application
+Rendering todays_activities/index
+Completed in 14ms (View: 9, DB: 1) | 200 OK [http://localhost/todays_activities]
+
+
+Processing TodaysActivitiesController#index (for 127.0.0.1 at 2010-04-22 08:54:16) [GET]
+  [4;35;1mActivity Load (0.9ms)[0m   [0mSELECT * FROM "activities" ORDER BY position[0m
+Rendering template within layouts/application
+Rendering todays_activities/index
+Completed in 13ms (View: 9, DB: 1) | 200 OK [http://localhost/todays_activities]
+
+
+Processing TodaysActivitiesController#index (for 127.0.0.1 at 2010-04-22 08:54:29) [GET]
+  [4;36;1mActivity Load (0.9ms)[0m   [0;1mSELECT * FROM "activities" ORDER BY position[0m
+Rendering template within layouts/application
+Rendering todays_activities/index
+Completed in 14ms (View: 9, DB: 1) | 200 OK [http://localhost/todays_activities]
+
+
+Processing TodaysActivitiesController#index (for 127.0.0.1 at 2010-04-22 08:54:35) [GET]
+  [4;35;1mActivity Load (1.0ms)[0m   [0mSELECT * FROM "activities" ORDER BY position[0m
+Rendering template within layouts/application
+Rendering todays_activities/index
+Completed in 137ms (View: 109, DB: 1) | 200 OK [http://localhost/todays_activities]
+
+
+Processing TodaysActivitiesController#index (for 127.0.0.1 at 2010-04-22 08:54:39) [GET]
+  [4;36;1mActivity Load (2.6ms)[0m   [0;1mSELECT * FROM "activities" ORDER BY position[0m
+Rendering template within layouts/application
+Rendering todays_activities/index
+Completed in 38ms (View: 12, DB: 3) | 200 OK [http://localhost/todays_activities]
+
+
+Processing TodaysActivitiesController#index (for 127.0.0.1 at 2010-04-22 08:54:53) [GET]
+  [4;35;1mActivity Load (1.0ms)[0m   [0mSELECT * FROM "activities" ORDER BY position[0m
+Rendering template within layouts/application
+Rendering todays_activities/index
+Completed in 14ms (View: 9, DB: 1) | 200 OK [http://localhost/todays_activities]
+
+
+Processing TodaysActivitiesController#index (for 127.0.0.1 at 2010-04-22 08:54:56) [GET]
+  [4;36;1mActivity Load (0.9ms)[0m   [0;1mSELECT * FROM "activities" ORDER BY position[0m
+Rendering template within layouts/application
+Rendering todays_activities/index
+Completed in 21ms (View: 12, DB: 1) | 200 OK [http://localhost/todays_activities]
+
+
+Processing TodaysActivitiesController#index (for 127.0.0.1 at 2010-04-22 08:55:15) [GET]
+  [4;35;1mActivity Load (1.0ms)[0m   [0mSELECT * FROM "activities" ORDER BY position[0m
+Rendering template within layouts/application
+Rendering todays_activities/index
+Completed in 25ms (View: 19, DB: 1) | 200 OK [http://localhost/todays_activities]
+
+
+Processing TodaysActivitiesController#index (for 127.0.0.1 at 2010-04-22 08:56:02) [GET]
+  [4;36;1mActivity Load (1.8ms)[0m   [0;1mSELECT * FROM "activities" ORDER BY position[0m
+Rendering template within layouts/application
+Rendering todays_activities/index
+Completed in 17ms (View: 10, DB: 2) | 200 OK [http://localhost/todays_activities]
+
+
+Processing TodaysActivitiesController#index (for 127.0.0.1 at 2010-04-22 08:56:04) [GET]
+  [4;35;1mActivity Load (0.9ms)[0m   [0mSELECT * FROM "activities" ORDER BY position[0m
+Rendering template within layouts/application
+Rendering todays_activities/index
+Completed in 79ms (View: 74, DB: 1) | 200 OK [http://localhost/todays_activities]
+
+
+Processing TodaysActivitiesController#index (for 127.0.0.1 at 2010-04-22 08:56:41) [GET]
+  [4;36;1mActivity Load (0.9ms)[0m   [0;1mSELECT * FROM "activities" ORDER BY position[0m
+Rendering template within layouts/application
+Rendering todays_activities/index
+Completed in 14ms (View: 9, DB: 1) | 200 OK [http://localhost/todays_activities]
+
+
+Processing TodaysActivitiesController#index (for 127.0.0.1 at 2010-04-22 08:56:46) [GET]
+  [4;35;1mActivity Load (0.9ms)[0m   [0mSELECT * FROM "activities" ORDER BY position[0m
+Rendering template within layouts/application
+Rendering todays_activities/index
+Completed in 14ms (View: 9, DB: 1) | 200 OK [http://localhost/todays_activities]
+
+
+Processing TodaysActivitiesController#index (for 127.0.0.1 at 2010-04-22 08:57:33) [GET]
+  [4;36;1mActivity Load (1.0ms)[0m   [0;1mSELECT * FROM "activities" ORDER BY position[0m
+Rendering template within layouts/application
+Rendering todays_activities/index
+Completed in 19ms (View: 14, DB: 1) | 200 OK [http://localhost/todays_activities]
+
+
+Processing TodaysActivitiesController#index (for 127.0.0.1 at 2010-04-22 08:57:55) [GET]
+  [4;35;1mActivity Load (11.6ms)[0m   [0mSELECT * FROM "activities" ORDER BY position[0m
+Rendering template within layouts/application
+Rendering todays_activities/index
+Completed in 27ms (View: 11, DB: 12) | 200 OK [http://localhost/todays_activities]
+
+
+Processing TodaysActivitiesController#index (for 127.0.0.1 at 2010-04-22 08:57:58) [GET]
+  [4;36;1mActivity Load (0.9ms)[0m   [0;1mSELECT * FROM "activities" ORDER BY position[0m
+Rendering template within layouts/application
+Rendering todays_activities/index
+Completed in 14ms (View: 9, DB: 1) | 200 OK [http://localhost/todays_activities]
+
+
+Processing TodaysActivitiesController#index (for 127.0.0.1 at 2010-04-22 08:58:01) [GET]
+  [4;35;1mActivity Load (0.9ms)[0m   [0mSELECT * FROM "activities" ORDER BY position[0m
+Rendering template within layouts/application
+Rendering todays_activities/index
+Completed in 142ms (View: 136, DB: 1) | 200 OK [http://localhost/todays_activities]
+
+
+Processing TodaysActivitiesController#index (for 127.0.0.1 at 2010-04-22 08:58:06) [GET]
+  [4;36;1mActivity Load (0.9ms)[0m   [0;1mSELECT * FROM "activities" ORDER BY position[0m
+Rendering template within layouts/application
+Rendering todays_activities/index
+Completed in 20ms (View: 13, DB: 1) | 200 OK [http://localhost/todays_activities]
+
+
+Processing TodaysActivitiesController#index (for 127.0.0.1 at 2010-04-22 08:58:12) [GET]
+  [4;35;1mActivity Load (0.9ms)[0m   [0mSELECT * FROM "activities" ORDER BY position[0m
+Rendering template within layouts/application
+Rendering todays_activities/index
+Completed in 14ms (View: 9, DB: 1) | 200 OK [http://localhost/todays_activities]
+
+
+Processing TodaysActivitiesController#index (for 127.0.0.1 at 2010-04-22 08:58:29) [GET]
+  [4;36;1mActivity Load (1.0ms)[0m   [0;1mSELECT * FROM "activities" ORDER BY position[0m
+Rendering template within layouts/application
+Rendering todays_activities/index
+Completed in 19ms (View: 12, DB: 1) | 200 OK [http://localhost/todays_activities]
+
+
+Processing TodaysActivitiesController#index (for 127.0.0.1 at 2010-04-22 08:58:38) [GET]
+  [4;35;1mActivity Load (2.3ms)[0m   [0mSELECT * FROM "activities" ORDER BY position[0m
+Rendering template within layouts/application
+Rendering todays_activities/index
+Completed in 19ms (View: 11, DB: 2) | 200 OK [http://localhost/todays_activities]
+
+
+Processing TodaysActivitiesController#index (for 127.0.0.1 at 2010-04-22 08:58:43) [GET]
+  [4;36;1mActivity Load (1.0ms)[0m   [0;1mSELECT * FROM "activities" ORDER BY position[0m
+Rendering template within layouts/application
+Rendering todays_activities/index
+Completed in 17ms (View: 10, DB: 1) | 200 OK [http://localhost/todays_activities]
+
+
+Processing TodaysActivitiesController#index (for 127.0.0.1 at 2010-04-22 08:58:48) [GET]
+  [4;35;1mActivity Load (0.9ms)[0m   [0mSELECT * FROM "activities" ORDER BY position[0m
+Rendering template within layouts/application
+Rendering todays_activities/index
+Completed in 14ms (View: 9, DB: 1) | 200 OK [http://localhost/todays_activities]
+
+
+Processing TodaysActivitiesController#index (for 127.0.0.1 at 2010-04-22 08:59:06) [GET]
+  [4;36;1mActivity Load (11.5ms)[0m   [0;1mSELECT * FROM "activities" ORDER BY position[0m
+Rendering template within layouts/application
+Rendering todays_activities/index
+Completed in 50ms (View: 32, DB: 11) | 200 OK [http://localhost/todays_activities]
+
+
+Processing TodaysActivitiesController#index (for 127.0.0.1 at 2010-04-22 08:59:09) [GET]
+  [4;35;1mActivity Load (0.9ms)[0m   [0mSELECT * FROM "activities" ORDER BY position[0m
+Rendering template within layouts/application
+Rendering todays_activities/index
+Completed in 15ms (View: 10, DB: 1) | 200 OK [http://localhost/todays_activities]
+
+
+Processing TodaysActivitiesController#index (for 127.0.0.1 at 2010-04-22 09:04:23) [GET]
+  [4;36;1mActivity Load (0.9ms)[0m   [0;1mSELECT * FROM "activities" ORDER BY position[0m
+Rendering template within layouts/application
+Rendering todays_activities/index
+Completed in 18ms (View: 14, DB: 1) | 200 OK [http://localhost/todays_activities]
+
+
+Processing TodaysActivitiesController#index (for 127.0.0.1 at 2010-04-22 09:04:50) [GET]
+  [4;35;1mActivity Load (5.0ms)[0m   [0mSELECT * FROM "activities" ORDER BY position[0m
+Rendering template within layouts/application
+Rendering todays_activities/index
+Completed in 42ms (View: 32, DB: 5) | 200 OK [http://localhost/todays_activities]
+
+
+Processing TodaysActivitiesController#index (for 127.0.0.1 at 2010-04-22 09:04:57) [GET]
+  [4;36;1mActivity Load (2.0ms)[0m   [0;1mSELECT * FROM "activities" ORDER BY position[0m
+Rendering template within layouts/application
+Rendering todays_activities/index
+Completed in 16ms (View: 9, DB: 2) | 200 OK [http://localhost/todays_activities]
+
+
+Processing TodaysActivitiesController#index (for 127.0.0.1 at 2010-04-22 09:05:11) [GET]
+  [4;35;1mActivity Load (12.9ms)[0m   [0mSELECT * FROM "activities" ORDER BY position[0m
+Rendering template within layouts/application
+Rendering todays_activities/index
+Completed in 134ms (View: 114, DB: 13) | 200 OK [http://localhost/todays_activities]
+
+
+Processing TodaysActivitiesController#index (for 127.0.0.1 at 2010-04-22 09:05:22) [GET]
+  [4;36;1mActivity Load (1.7ms)[0m   [0;1mSELECT * FROM "activities" ORDER BY position[0m
+Rendering template within layouts/application
+Rendering todays_activities/index
+Completed in 36ms (View: 25, DB: 2) | 200 OK [http://localhost/todays_activities]
+
+
+Processing TodaysActivitiesController#index (for 127.0.0.1 at 2010-04-22 09:05:32) [GET]
+  [4;35;1mActivity Load (1.1ms)[0m   [0mSELECT * FROM "activities" ORDER BY position[0m
+Rendering template within layouts/application
+Rendering todays_activities/index
+Completed in 20ms (View: 14, DB: 1) | 200 OK [http://localhost/todays_activities]
+
+
+Processing TodaysActivitiesController#index (for 127.0.0.1 at 2010-04-22 09:06:40) [GET]
+  [4;36;1mActivity Load (1.0ms)[0m   [0;1mSELECT * FROM "activities" ORDER BY position[0m
+Rendering template within layouts/application
+Rendering todays_activities/index
+Completed in 19ms (View: 10, DB: 1) | 200 OK [http://localhost/todays_activities]
+
+
+Processing TodaysActivitiesController#index (for 127.0.0.1 at 2010-04-22 09:06:48) [GET]
+  [4;35;1mActivity Load (0.9ms)[0m   [0mSELECT * FROM "activities" ORDER BY position[0m
+Rendering template within layouts/application
+Rendering todays_activities/index
+Completed in 14ms (View: 9, DB: 1) | 200 OK [http://localhost/todays_activities]
+
+
+Processing TodaysActivitiesController#index (for 127.0.0.1 at 2010-04-22 09:06:53) [GET]
+  [4;36;1mActivity Load (0.9ms)[0m   [0;1mSELECT * FROM "activities" ORDER BY position[0m
+Rendering template within layouts/application
+Rendering todays_activities/index
+Completed in 14ms (View: 9, DB: 1) | 200 OK [http://localhost/todays_activities]
+
+
+Processing TodaysActivitiesController#index (for 127.0.0.1 at 2010-04-22 09:07:21) [GET]
+  [4;35;1mActivity Load (1.0ms)[0m   [0mSELECT * FROM "activities" ORDER BY position[0m
+Rendering template within layouts/application
+Rendering todays_activities/index
+Completed in 36ms (View: 17, DB: 1) | 200 OK [http://localhost/todays_activities]
+
+
+Processing TodaysActivitiesController#index (for 127.0.0.1 at 2010-04-22 09:07:28) [GET]
+  [4;36;1mActivity Load (0.9ms)[0m   [0;1mSELECT * FROM "activities" ORDER BY position[0m
+Rendering template within layouts/application
+Rendering todays_activities/index
+Completed in 19ms (View: 9, DB: 1) | 200 OK [http://localhost/todays_activities]
+
+
+Processing TodaysActivitiesController#index (for 127.0.0.1 at 2010-04-22 09:07:32) [GET]
+  [4;35;1mActivity Load (12.2ms)[0m   [0mSELECT * FROM "activities" ORDER BY position[0m
+Rendering template within layouts/application
+Rendering todays_activities/index
+Completed in 29ms (View: 11, DB: 12) | 200 OK [http://localhost/todays_activities]
+
+
+Processing TodaysActivitiesController#index (for 127.0.0.1 at 2010-04-22 09:08:00) [GET]
+  [4;36;1mActivity Load (0.9ms)[0m   [0;1mSELECT * FROM "activities" ORDER BY position[0m
+Rendering template within layouts/application
+Rendering todays_activities/index
+Completed in 29ms (View: 20, DB: 1) | 200 OK [http://localhost/todays_activities]
+
+
+Processing TodaysActivitiesController#index (for 127.0.0.1 at 2010-04-22 09:08:06) [GET]
+  [4;35;1mActivity Load (18.0ms)[0m   [0mSELECT * FROM "activities" ORDER BY position[0m
+Rendering template within layouts/application
+Rendering todays_activities/index
+Completed in 50ms (View: 11, DB: 18) | 200 OK [http://localhost/todays_activities]
+
+
+Processing TodaysActivitiesController#index (for 127.0.0.1 at 2010-04-22 09:08:28) [GET]
+  [4;36;1mActivity Load (1.0ms)[0m   [0;1mSELECT * FROM "activities" ORDER BY position[0m
+Rendering template within layouts/application
+Rendering todays_activities/index
+Completed in 19ms (View: 14, DB: 1) | 200 OK [http://localhost/todays_activities]
+
+
+Processing TodaysActivitiesController#index (for 127.0.0.1 at 2010-04-22 09:08:33) [GET]
+  [4;35;1mActivity Load (0.9ms)[0m   [0mSELECT * FROM "activities" ORDER BY position[0m
+Rendering template within layouts/application
+Rendering todays_activities/index
+Completed in 19ms (View: 13, DB: 1) | 200 OK [http://localhost/todays_activities]
+
+
+Processing TodaysActivitiesController#index (for 127.0.0.1 at 2010-04-22 09:08:39) [GET]
+  [4;36;1mActivity Load (0.9ms)[0m   [0;1mSELECT * FROM "activities" ORDER BY position[0m
+Rendering template within layouts/application
+Rendering todays_activities/index
+Completed in 13ms (View: 9, DB: 1) | 200 OK [http://localhost/todays_activities]
+
+
+Processing TodaysActivitiesController#index (for 127.0.0.1 at 2010-04-22 09:09:40) [GET]
+  [4;35;1mActivity Load (1.0ms)[0m   [0mSELECT * FROM "activities" ORDER BY position[0m
+Rendering template within layouts/application
+Rendering todays_activities/index
+Completed in 19ms (View: 12, DB: 1) | 200 OK [http://localhost/todays_activities]
+
+
+Processing TodaysActivitiesController#index (for 127.0.0.1 at 2010-04-22 09:09:55) [GET]
+  [4;36;1mActivity Load (0.9ms)[0m   [0;1mSELECT * FROM "activities" ORDER BY position[0m
+Rendering template within layouts/application
+Rendering todays_activities/index
+Completed in 42ms (View: 33, DB: 1) | 200 OK [http://localhost/todays_activities]
+
+
+Processing TodaysActivitiesController#index (for 127.0.0.1 at 2010-04-22 09:10:17) [GET]
+  [4;35;1mActivity Load (1.0ms)[0m   [0mSELECT * FROM "activities" ORDER BY position[0m
+Rendering template within layouts/application
+Rendering todays_activities/index
+Completed in 16ms (View: 10, DB: 1) | 200 OK [http://localhost/todays_activities]
+
+
+Processing TodaysActivitiesController#index (for 127.0.0.1 at 2010-04-22 09:10:43) [GET]
+  [4;36;1mActivity Load (1.0ms)[0m   [0;1mSELECT * FROM "activities" ORDER BY position[0m
+Rendering template within layouts/application
+Rendering todays_activities/index
+Completed in 36ms (View: 23, DB: 1) | 200 OK [http://localhost/todays_activities]
+
+
+Processing TodaysActivitiesController#index (for 127.0.0.1 at 2010-04-22 09:13:11) [GET]
+  [4;35;1mActivity Load (0.9ms)[0m   [0mSELECT * FROM "activities" ORDER BY position[0m
+Rendering template within layouts/application
+Rendering todays_activities/index
+Completed in 18ms (View: 13, DB: 1) | 200 OK [http://localhost/todays_activities]
